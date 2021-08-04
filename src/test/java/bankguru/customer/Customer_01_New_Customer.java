@@ -1,6 +1,5 @@
 package bankguru.customer;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -38,10 +37,10 @@ public class Customer_01_New_Customer extends BaseTest {
 		emailID = fakeData.getEmailAddress();
 
 		log.info("Pre-condition - Step 04: Enter to 'Email ID' textbox");
-		registerPage.enterToEmailTextbox(emailID);
+		registerPage.sendKeyToTextboxByName(driver, emailID, "emailid");
 
 		log.info("Pre-condition - Step 05: Click to 'Submit' button");
-		registerPage.clickToSubmitButtonAtRegisterPage();
+		registerPage.clickToButtonByName(driver, "btnLogin");
 
 		log.info("Pre-condition - Step 06: Get 'User ID' value");
 		userID = registerPage.getUserIDValue();
@@ -54,13 +53,13 @@ public class Customer_01_New_Customer extends BaseTest {
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 
 		log.info("Pre-condition - Step 09: Enter to 'UserID' textbox");
-		loginPage.enterToUserIDTextbox(userID);
+		loginPage.sendKeyToTextboxByName(driver, userID, "uid");
 
 		log.info("Pre-condition - Step 10: Enter to 'Password' textbox");
-		loginPage.enterToPasswordTextbox(password);
+		loginPage.sendKeyToTextboxByName(driver, password, "password");
 
 		log.info("Pre-condition - Step 11: Click to 'Login' button");
-		loginPage.clickToLoginButton();
+		loginPage.clickToButtonByName(driver, "btnLogin");
 		homePage = PageGeneratorManager.getHomePage(driver);
 
 		log.info("Pre-condition - Step 12: Verify login success message is displayed");
@@ -376,16 +375,16 @@ public class Customer_01_New_Customer extends BaseTest {
 	public void TC_28_New_Customer_With_All_Fields_Are_As_Requirement() {
 
 		log.info("New_Customer Verify all fields label - Step 01: Verify all fields are displayed as requirment");
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "Customer Name"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "Gender"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "Date of Birth"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "Address"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "City"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "State"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "PIN"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "Mobile Number"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "E-mail"));
-		verifyTrue(homePage.isFieldLablelDisPlayedByName(driver, "Password"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "Customer Name"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "Gender"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "Date of Birth"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "Address"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "City"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "State"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "PIN"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "Mobile Number"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "E-mail"));
+		verifyTrue(homePage.isFieldLablelDisplayedByTextName(driver, "Password"));
 
 	}
 

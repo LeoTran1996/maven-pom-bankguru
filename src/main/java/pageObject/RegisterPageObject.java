@@ -13,17 +13,6 @@ public class RegisterPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void enterToEmailTextbox(String email) {
-		waitforElementVisible(driver, RegisterPageUI.EMAIL_ID_TEXTBOX);
-		sendkeyToElement(driver, RegisterPageUI.EMAIL_ID_TEXTBOX, email);
-		
-	}
-
-	public void clickToSubmitButtonAtRegisterPage() {
-		waitforElementClickable(driver, RegisterPageUI.SUBMIT_BUTTON);
-		clickToElement(driver, RegisterPageUI.SUBMIT_BUTTON);
-	}
-
 	public String getUserIDValue() {
 		waitforElementVisible(driver, RegisterPageUI.USER_ID_TEXT_VALUE);
 		return getElementTex(driver, RegisterPageUI.USER_ID_TEXT_VALUE);

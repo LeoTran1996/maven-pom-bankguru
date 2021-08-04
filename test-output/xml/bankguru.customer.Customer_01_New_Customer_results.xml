@@ -4,38 +4,38 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="6.676">
+           time="7.193">
   <properties />
   
   
-            <testcase name="TC_12_New_Customer_With_State_Can_Not_Be_Numeric" time="0.146" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_04_New_Customer_With_Name_Can_Not_Have_First_Character_As_Blank" time="0.171" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_23_New_Customer_With_Mobile_Number_Can_Not_Have_Blank_Space" time="0.140" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_02_New_Customer_With_Name_Can_Not_Be_Numeric" time="0.179" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_10_New_Customer_With_City_Can_Not_Have_First_Character_As_Blank" time="0.143" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_03_New_Customer_With_Name_Can_Not_Have_Special_Characters" time="0.186" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_13_New_Customer_With_State_Can_Not_Have_Special_Characters" time="0.146" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_07_New_Customer_With_City_Can_Not_Be_Empty" time="0.335" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_11_New_Customer_With_State_Can_Not_Be_Empty" time="0.364" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_17_New_Customer_With_Pin_Can_Not_Have_Special_Characters" time="0.145" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_09_New_Customer_With_Name_Can_Not_Have_Special_Characters" time="0.156" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_19_New_Customer_With_Pin_Must_Have_6_Digits" time="0.132" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_22_New_Customer_With_Mobile_Number_Can_Not_Have_First_Character_As_Blank" time="0.136" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_08_New_Customer_With_City_Can_Not_Be_Numeric" time="0.149" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_21_New_Customer_With_Mobile_Number_Can_Not_Be_Empty" time="0.353" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_26_New_Customer_With_Email_Must_Be_In_Correct_Format" time="0.138" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_14_New_Customer_With_State_Can_Not_Have_First_Character_As_Blank" time="0.153" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_25_New_Customer_With_Email_Can_Not_Be_Empty" time="0.361" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_27_New_Customer_With_Email_Can_Not_Have_Blank_Space" time="0.144" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_20_New_Customer_With_Pin_Can_Not_Have_First_Character_As_Blank" time="0.144" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_28_New_Customer_With_All_Fields_Are_As_Requirement" time="0.421" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_19_New_Customer_With_Pin_Can_Not_Have_Blank_Space" time="0.133" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_06_New_Customer_With_Address_Can_Not_Have_First_Character_As_Blank" time="0.142" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_18_New_Customer_With_Pin_Can_Not_Have_First_Character_As_Blank" time="0.133" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_16_New_Customer_With_Pin_Must_Be_Numeric" time="0.158" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_15_New_Customer_With_Pin_Can_Not_Be_Empty" time="0.374" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_24_New_Customer_Mobile_Number_Pin_Can_Not_Have_Special_Characters" time="0.146" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_05_New_Customer_With_Address_Can_Not_Be_Empty" time="0.344" classname="bankguru.customer.Customer_01_New_Customer" />
-                <testcase name="TC_01_New_Customer_With_Name_Can_Not_Be_Empty" time="1.004" classname="bankguru.customer.Customer_01_New_Customer" />
+            <testcase name="TC_08_New_Customer_With_City_Can_Not_Be_Numeric" time="0.177" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_07_New_Customer_With_City_Can_Not_Be_Empty" time="0.356" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_18_New_Customer_With_Pin_Can_Not_Have_First_Character_As_Blank" time="0.131" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_02_New_Customer_With_Name_Can_Not_Be_Numeric" time="0.205" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_01_New_Customer_With_Name_Can_Not_Be_Empty" time="1.250" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_19_New_Customer_With_Pin_Can_Not_Have_Blank_Space" time="0.142" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_03_New_Customer_With_Name_Can_Not_Have_Special_Characters" time="0.247" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_10_New_Customer_With_City_Can_Not_Have_First_Character_As_Blank" time="0.159" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_28_New_Customer_With_All_Fields_Are_As_Requirement" time="0.492" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_20_New_Customer_With_Pin_Can_Not_Have_First_Character_As_Blank" time="0.162" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_16_New_Customer_With_Pin_Must_Be_Numeric" time="0.172" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_17_New_Customer_With_Pin_Can_Not_Have_Special_Characters" time="0.182" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_24_New_Customer_Mobile_Number_Pin_Can_Not_Have_Special_Characters" time="0.141" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_23_New_Customer_With_Mobile_Number_Can_Not_Have_Blank_Space" time="0.134" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_26_New_Customer_With_Email_Must_Be_In_Correct_Format" time="0.151" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_11_New_Customer_With_State_Can_Not_Be_Empty" time="0.334" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_13_New_Customer_With_State_Can_Not_Have_Special_Characters" time="0.154" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_06_New_Customer_With_Address_Can_Not_Have_First_Character_As_Blank" time="0.145" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_27_New_Customer_With_Email_Can_Not_Have_Blank_Space" time="0.146" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_21_New_Customer_With_Mobile_Number_Can_Not_Be_Empty" time="0.337" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_25_New_Customer_With_Email_Can_Not_Be_Empty" time="0.308" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_14_New_Customer_With_State_Can_Not_Have_First_Character_As_Blank" time="0.172" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_15_New_Customer_With_Pin_Can_Not_Be_Empty" time="0.346" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_04_New_Customer_With_Name_Can_Not_Have_First_Character_As_Blank" time="0.174" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_09_New_Customer_With_Name_Can_Not_Have_Special_Characters" time="0.171" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_05_New_Customer_With_Address_Can_Not_Be_Empty" time="0.355" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_12_New_Customer_With_State_Can_Not_Be_Numeric" time="0.163" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_22_New_Customer_With_Mobile_Number_Can_Not_Have_First_Character_As_Blank" time="0.147" classname="bankguru.customer.Customer_01_New_Customer" />
+                <testcase name="TC_19_New_Customer_With_Pin_Must_Have_6_Digits" time="0.140" classname="bankguru.customer.Customer_01_New_Customer" />
       
 </testsuite>

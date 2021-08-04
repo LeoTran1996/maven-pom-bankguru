@@ -499,6 +499,13 @@ public class BasePage {
 		sendkeyToElement(driver,locator,value);
 	}
 	
+	public void clickToButtonByName(WebDriver driver, String nameButton) {
+		locator = getDynamicLocator(BasePageUI.DYNAMIC_BUTTON_BY_NAME, nameButton);
+		waitforElementClickable(driver, locator);
+		clickToElement(driver, locator);
+		
+	}
+	
 	public void sendKeyToTextAreaByName(WebDriver driver, String value, String nameArea) {
 		locator = getDynamicLocator(BasePageUI.DYNAMIC_TEXTAREA_BY_NAME, nameArea);
 		waitforElementVisible(driver, locator);
@@ -511,8 +518,8 @@ public class BasePage {
 		return getElementTex(driver, locator);
 	}
 	
-	public boolean isFieldLablelDisPlayedByName(WebDriver driver, String labelText) {
-		locator = getDynamicLocator(locator, labelText);
+	public boolean isFieldLablelDisplayedByTextName(WebDriver driver, String labelText) {
+		locator = getDynamicLocator(BasePageUI.DYNAMIC_FIELD_NAME_BY_TEXT, labelText);
 		waitforElementVisible(driver, locator);
 		return isElementDisplayed(driver, locator);
 	}
