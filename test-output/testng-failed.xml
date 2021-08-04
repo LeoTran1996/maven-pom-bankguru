@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Customer]">
+  <parameter name="url" value="http://demo.guru99.com/v4"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentListenerVersion4"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Run on firefox(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="bankguru.customer.Customer_01_New_Customer">
+        <methods>
+          <include name="deleteAllFileInReportNGScreenShot"/>
+          <include name="TC_15_New_Customer_With_Pin_Can_Not_Be_Empty"/>
+          <include name="afterClass"/>
+          <include name="TC_19_New_Customer_With_Pin_Must_Have_6_Digits"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- bankguru.customer.Customer_01_New_Customer -->
+    </classes>
+  </test> <!-- Run on firefox(failed) -->
+</suite> <!-- Failed suite [Customer] -->

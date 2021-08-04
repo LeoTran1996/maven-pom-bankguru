@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Customer" parallel="tests" thread-count ="3">
+	<parameter name = "url" value ="http://demo.guru99.com/v4" />
+
+	<listeners> 
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentListenerVersion4" /> 
+<!-- 	<listener class-name="reportConfig.AllureTestListener" /> -->
+	</listeners>
+
+  <test name="Run on firefox">
+  <parameter name = "browser" value ="chrome" />
+    <classes>
+      <class name="bankguru.customer.Customer_01_New_Customer"/>
+    </classes>
+  </test> 
+  
+</suite>
