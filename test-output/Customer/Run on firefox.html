@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Run on firefox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 04 22:57:50 ICT 2021</td>
+<td>Started on:</td><td>Thu Aug 05 15:18:26 ICT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22674 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17654 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,327 +67,440 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_01_Edit_Customer_CustomerID_Canot_Be_Empty()'><b>TC_01_Edit_Customer_CustomerID_Canot_Be_Empty</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-831328034" onClick='toggleBox("Output-831328034", this, "Show output", "Hide output");'>Show output</a>
+<td title='bankguru.customer.Customer_07_Ministatement.beforeClass()'><b>beforeClass</b><br>Test class: bankguru.customer.Customer_07_Ministatement<br>Parameters: chrome, http://demo.guru99.com/v4<br/>
+<a href="#Output-1399299339" onClick='toggleBox("Output-1399299339", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-831328034" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-831328034">
-[INFO ] [2021-08-04 22:58:06,774] Edit_Customer_CustomerID cannot be empty - Step 01: Input blank value to 'CustomerID' textbox
+<a href="#Output-1399299339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1399299339">
+[INFO ] [2021-08-05 15:18:27,451] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
 <br/>
-[INFO ] [2021-08-04 22:58:06,936] Edit_Customer_CustomerID cannot be empty - Step 02: Press key TAB to 'CustomerID' textbox
+[INFO ] [2021-08-05 15:18:34,070] Pre-condition - Step 02: Get current Url
 <br/>
-[INFO ] [2021-08-04 22:58:07,110] Edit_Customer_CustomerID cannot be empty - Step 03: Verify warning message is displayed with 'Customer ID is required'
+[INFO ] [2021-08-05 15:18:34,078] Pre-condition - Step 03: Click to 'here' link
+<br/>
+[INFO ] [2021-08-05 15:18:35,739] Pre-condition - Step 04: Enter to 'Email ID' textbox
+<br/>
+[INFO ] [2021-08-05 15:18:35,934] Pre-condition - Step 05: Click to 'Submit' button
+<br/>
+[INFO ] [2021-08-05 15:18:36,825] Pre-condition - Step 06: Get 'User ID' value
+<br/>
+[INFO ] [2021-08-05 15:18:36,880] Pre-condition - Step 07: Get 'Password' value
+<br/>
+[INFO ] [2021-08-05 15:18:36,931] Pre-condition - Step 08: Back to LoginPage
+<br/>
+[INFO ] [2021-08-05 15:18:38,581] Pre-condition - Step 09: Enter to 'UserID' textbox
+<br/>
+[INFO ] [2021-08-05 15:18:38,734] Pre-condition - Step 10: Enter to 'Password' textbox
+<br/>
+[INFO ] [2021-08-05 15:18:38,870] Pre-condition - Step 11: Click to 'Login' button
+<br/>
+[INFO ] [2021-08-05 15:18:40,229] Pre-condition - Step 12: Verify login success message is displayed
+<br/>
+[INFO ] [2021-08-05 15:18:40,297] Pre-condition - Step 13: Click to 'New Customer' Link
+<br/>
+[INFO ] [2021-08-05 15:18:40,857] Pre-condition - Step 14: Input to 'Customer Name' textbox with valueAlexa Gutkowski
+<br/>
+[INFO ] [2021-08-05 15:18:41,014] Pre-condition - Step 15: Input to 'Date of Birth' textbox with value03/02/1998
+<br/>
+[INFO ] [2021-08-05 15:18:41,144] Pre-condition - Step 16: Input to 'Address' textbox with value774 Schowalter Stream
+<br/>
+[INFO ] [2021-08-05 15:18:41,307] Pre-condition - Step 17: Input to 'City' textbox with valueNew Laurenport
+<br/>
+[INFO ] [2021-08-05 15:18:41,441] Pre-condition - Step 18: Input to 'State' textbox with valueTan Binh
+<br/>
+[INFO ] [2021-08-05 15:18:41,568] Pre-condition - Step 19: Input to 'PIN' textbox with value123456
+<br/>
+[INFO ] [2021-08-05 15:18:41,698] Pre-condition - Step 20: Input to 'Mobile Number' textbox with value0964123456
+<br/>
+[INFO ] [2021-08-05 15:18:41,837] Pre-condition - Step 21: Input to 'E-mail' textbox with valueshawna.miller@yahoo.com
+<br/>
+[INFO ] [2021-08-05 15:18:42,001] Pre-condition - Step 22: Input to 'Password' textbox with valuewvh7oqg
+<br/>
+[INFO ] [2021-08-05 15:18:42,118] Pre-condition - Step 23: Click to 'Submit' button
+<br/>
+[INFO ] [2021-08-05 15:18:42,607] Pre-condition - Step 23: Verify success message is displayed with content 'Customer Registered Successfully!!!'
 <br/>
 </div>
 </td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1399299339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1399299339'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>15</td>
+<td>bankguru.customer.Customer_07_Ministatement@446c3920</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_02_Edit_Customer_CustomerID_Must_Be_Numeric()'><b>TC_02_Edit_Customer_CustomerID_Must_Be_Numeric</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1488911995" onClick='toggleBox("Output-1488911995", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1488911995" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1488911995">
-[INFO ] [2021-08-04 22:58:07,318] New_Customer_CustomerID cannot be numeric - Step 01:  Input numeric to 'CustomerID' textbox with value: 'anhtran123'
-<br/>
-[INFO ] [2021-08-04 22:58:07,470] New_Customer_CustomerID cannot be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
+<td title='bankguru.customer.Customer_07_Ministatement.TC_01_Mini_Statement_AccountNo_Canot_Be_Empty()'><b>TC_01_Mini_Statement_AccountNo_Canot_Be_Empty</b><br>Test class: bankguru.customer.Customer_07_Ministatement</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace653280278", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace653280278'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
 <td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
+<td>bankguru.customer.Customer_07_Ministatement@446c3920</td></tr>
 <tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_03_Edit_Customer_CustomerID_Can_Not_Have_Special_Characters()'><b>TC_03_Edit_Customer_CustomerID_Can_Not_Have_Special_Characters</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-2042548352" onClick='toggleBox("Output-2042548352", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2042548352" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2042548352">
-[INFO ] [2021-08-04 22:58:07,543] New_Customer_CustomerID cannot have special charater - Step 01:  Input to 'CustomerID' textbox with value: '123@#'
-<br/>
-[INFO ] [2021-08-04 22:58:07,672] New_Customer_CustomerID cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
+<td title='bankguru.customer.Customer_07_Ministatement.TC_02_Mini_Statement_AccountNo_Must_Be_Numeric()'><b>TC_02_Mini_Statement_AccountNo_Must_Be_Numeric</b><br>Test class: bankguru.customer.Customer_07_Ministatement</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1112052938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1112052938'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
 <td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
+<td>bankguru.customer.Customer_07_Ministatement@446c3920</td></tr>
 <tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_04_Edit_Customer_CustomerID_Valid_Customer_ID()'><b>TC_04_Edit_Customer_CustomerID_Valid_Customer_ID</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1891110929" onClick='toggleBox("Output-1891110929", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1891110929" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1891110929">
-[INFO ] [2021-08-04 22:58:07,722] New_Customer_CustomerID Valid CustomerID  - Step 01: Input valid customerID to 'Customer ID' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:07,834] New_Customer_CustomerID Valid CustomerID  - Step 02: Click to Submit button
-<br/>
-</div>
-</td>
-<td></td>
+<td title='bankguru.customer.Customer_07_Ministatement.TC_03_Mini_Statement_AccountNo_Can_Not_Have_Special_Characters()'><b>TC_03_Mini_Statement_AccountNo_Can_Not_Have_Special_Characters</b><br>Test class: bankguru.customer.Customer_07_Ministatement</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace750900902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace750900902'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
 <td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
+<td>bankguru.customer.Customer_07_Ministatement@446c3920</td></tr>
 <tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_05_Edit_Customer_Address_Can_Not_Be_Empty()'><b>TC_05_Edit_Customer_Address_Can_Not_Be_Empty</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1142149454" onClick='toggleBox("Output-1142149454", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1142149454" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1142149454">
-[INFO ] [2021-08-04 22:58:08,579] Edit_Customer_Address cannot be empty - Step 01: Input blank value to 'Address' textarea
-<br/>
-[INFO ] [2021-08-04 22:58:08,692] Edit_Customer_Address cannot be empty - Step 02: Press key TAB to 'Address' textarea
-<br/>
-[INFO ] [2021-08-04 22:58:08,871] Edit_Customer_Address cannot be empty - Step 03: Verify warning message is displayed with 'Address Field must not be blank'
-<br/>
-</div>
-</td>
-<td></td>
+<td title='bankguru.customer.Customer_07_Ministatement.TC_04_Mini_Statement_AccountNo_Valid_AccountNo()'><b>TC_04_Mini_Statement_AccountNo_Valid_AccountNo</b><br>Test class: bankguru.customer.Customer_07_Ministatement</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1673267004", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1673267004'><pre>org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=92.0.4515.131): Customer could not be added !!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-CPNL6G4&apos;, ip: &apos;192.168.100.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\vailu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ae8b17d289bc3f0e75e81e592a7f1afa
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at commons.BasePage.getWebElement(BasePage.java:122)
+	at commons.BasePage.waitforElementVisible(BasePage.java:408)
+	at pageObject.CustomerPageObject.isSuccessMessageDisplayed(CustomerPageObject.java:17)
+	at bankguru.customer.Customer_07_Ministatement.beforeClass(Customer_07_Ministatement.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
 <td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_06_Edit_Customer_City_Can_Not_Be_Empty()'><b>TC_06_Edit_Customer_City_Can_Not_Be_Empty</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-717563714" onClick='toggleBox("Output-717563714", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-717563714" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-717563714">
-[INFO ] [2021-08-04 22:58:08,938] Edit_Customer_City cannot be empty - Step 01: Input blank value to 'City' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:09,044] Edit_Customer_City cannot be empty - Step 02: Press key TAB to 'City' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:09,223] Edit_Customer_City cannot be empty - Step 03: Verify warning message is displayed with 'City Field must not be blank'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_07_Edit_Customer_City_Can_Not_Be_Numeric()'><b>TC_07_Edit_Customer_City_Can_Not_Be_Numeric</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1078514045" onClick='toggleBox("Output-1078514045", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1078514045" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1078514045">
-[INFO ] [2021-08-04 22:58:09,298] Edit_Customer_City cannot be numeric - Step 01:  Input numeric to 'City' textbox with value: 'anhtran123'
-<br/>
-[INFO ] [2021-08-04 22:58:09,414] Edit_Customer_City cannot be numeric - Step 02: Verify warning message is displayed with 'Numbers are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_08_Edit_Customer_City_With_Name_Can_Not_Have_Special_Characters()'><b>TC_08_Edit_Customer_City_With_Name_Can_Not_Have_Special_Characters</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1056586188" onClick='toggleBox("Output-1056586188", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1056586188" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1056586188">
-[INFO ] [2021-08-04 22:58:09,459] Edit_Customer_City cannot have special charater - Step 01:  Input to 'City' textbox with value: 'anhtran@#'
-<br/>
-[INFO ] [2021-08-04 22:58:09,567] Edit_Customer_City cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_09_Edit_Customer_With_State_Can_Not_Be_Empty()'><b>TC_09_Edit_Customer_With_State_Can_Not_Be_Empty</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-366719846" onClick='toggleBox("Output-366719846", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-366719846" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-366719846">
-[INFO ] [2021-08-04 22:58:09,645] Edit_Customer_State cannot be empty - Step 01: Input blank value to 'State' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:09,763] Edit_Customer_State cannot be empty - Step 02: Press key TAB to 'State' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:09,909] New_Customer_State cannot be empty - Step 03: Verify warning message is displayed with 'State must not be blank'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_10_Edit_Customer_With_State_Can_Not_Be_Numeric()'><b>TC_10_Edit_Customer_With_State_Can_Not_Be_Numeric</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-624600959" onClick='toggleBox("Output-624600959", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-624600959" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-624600959">
-[INFO ] [2021-08-04 22:58:09,978] Edit_Customer_State cannot be numeric - Step 01:  Input numeric to 'State' textbox with value: 'anhtran123'
-<br/>
-[INFO ] [2021-08-04 22:58:10,079] Edit_Customer_State cannot be numeric - Step 02: Verify warning message is displayed with 'Numbers are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_11_Edit_Customer_With_State_Can_Not_Have_Special_Characters()'><b>TC_11_Edit_Customer_With_State_Can_Not_Have_Special_Characters</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-104442263" onClick='toggleBox("Output-104442263", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-104442263" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-104442263">
-[INFO ] [2021-08-04 22:58:10,124] New_Customer_State cannot have special charater - Step 01:  Input to 'State' textbox with value: 'anhtran@#'
-<br/>
-[INFO ] [2021-08-04 22:58:10,223] New_Customer_State cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_12_Edit_Customer_With_Pin_Can_Not_Be_Empty()'><b>TC_12_Edit_Customer_With_Pin_Can_Not_Be_Empty</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-2162255" onClick='toggleBox("Output-2162255", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2162255" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2162255">
-[INFO ] [2021-08-04 22:58:10,265] Edit_Customer_Pin cannot be empty - Step 01: Input blank value to 'Pin' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:10,382] Edit_Customer_Pin cannot be empty - Step 02: Press key TAB to 'Pin' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:10,531] Edit_Customer cannot be empty - Step 03: Verify warning message is displayed with 'PIN Code must not be blank'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_13_Edit_Customer_With_Pin_Must_Be_Numeric()'><b>TC_13_Edit_Customer_With_Pin_Must_Be_Numeric</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1611526390" onClick='toggleBox("Output-1611526390", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1611526390" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1611526390">
-[INFO ] [2021-08-04 22:58:10,594] Edit_Customer_Pin must be numeric - Step 01:  Input numeric to 'Pin' textbox with value: '123pin'
-<br/>
-[INFO ] [2021-08-04 22:58:10,692] Edit_Customer_Pin must be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_14_Edit_Customer_With_Pin_Can_Not_Have_Special_Characters()'><b>TC_14_Edit_Customer_With_Pin_Can_Not_Have_Special_Characters</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-884698188" onClick='toggleBox("Output-884698188", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-884698188" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-884698188">
-[INFO ] [2021-08-04 22:58:10,734] New_Customer_Pin cannot have special charater - Step 01:  Input to 'Pin' textbox with value: '@#anh'
-<br/>
-[INFO ] [2021-08-04 22:58:10,840] New_Customer_Pin cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_15_Edit_Customer_With_Mobile_Number_Can_Not_Be_Empty()'><b>TC_15_Edit_Customer_With_Mobile_Number_Can_Not_Be_Empty</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1850876398" onClick='toggleBox("Output-1850876398", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1850876398" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1850876398">
-[INFO ] [2021-08-04 22:58:10,881] Edit_Customerr_Mobile Number cannot be empty - Step 01: Input blank value to 'Mobile Number' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:11,001] Edit_Customer_Mobile Number cannot be empty - Step 02: Press key TAB to 'Mobile Number' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:11,163] Edit_Customer_Mobile Number cannot be empty - Step 03: Verify warning message is displayed with 'Mobile no must not be blank'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_15_Edit_Customer_With_With_Pin_Must_Have_6_Digits()'><b>TC_15_Edit_Customer_With_With_Pin_Must_Have_6_Digits</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-834254400" onClick='toggleBox("Output-834254400", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-834254400" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-834254400">
-[INFO ] [2021-08-04 22:58:11,223] Edit_Customer_Pin must have 6 digits - Step 01:  Input to 'Pin' textbox with value: '1234'
-<br/>
-[INFO ] [2021-08-04 22:58:11,324] Edit_Customer_Pin must have 6 digits - Step 02: Verify warning message is displayed with 'PIN Code must have 6 Digits'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_16_Edit_Customer_With_Mobile_Number_Can_Not_Have_First_Character_As_Blank()'><b>TC_16_Edit_Customer_With_Mobile_Number_Can_Not_Have_First_Character_As_Blank</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-640734962" onClick='toggleBox("Output-640734962", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-640734962" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-640734962">
-[INFO ] [2021-08-04 22:58:11,523] Edit_Customer_Mobile Number cannot have first character as blank space - Step 01:  Input to 'Mobile Number' textbox with value: ' 123'
-<br/>
-[INFO ] [2021-08-04 22:58:11,631] Edit_Customer_Mobile Number cannot have first character as blank space - Step 02: Verify warning message is displayed with 'First character can not have space'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_17_Edit_Customer_With_Mobile_Number_Pin_Can_Not_Have_Special_Characters()'><b>TC_17_Edit_Customer_With_Mobile_Number_Pin_Can_Not_Have_Special_Characters</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-1027690677" onClick='toggleBox("Output-1027690677", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1027690677" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1027690677">
-[INFO ] [2021-08-04 22:58:11,680] Edit_Customer_Mobile Numbercannot have special charater - Step 01:  Input to 'Mobile Number' textbox with value: '8888$3#'
-<br/>
-[INFO ] [2021-08-04 22:58:11,785] Edit_Customer_Mobile Number cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_18_Edit_Customer_With_Email_Can_Not_Be_Empty()'><b>TC_18_Edit_Customer_With_Email_Can_Not_Be_Empty</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-193293853" onClick='toggleBox("Output-193293853", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-193293853" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-193293853">
-[INFO ] [2021-08-04 22:58:11,832] Edit_Customer_Email cannot be empty - Step 01: Input blank value to 'Email' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:11,943] Edit_Customer_Email cannot be empty - Step 02: Press key TAB to 'Email-ID must not be blank' textbox
-<br/>
-[INFO ] [2021-08-04 22:58:12,076] Edit_Customer_Email cannot be empty - Step 03: Verify warning message is displayed with 'Email-ID must not be blank'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
-<tr>
-<td title='bankguru.customer.Customer_02_Edit_Customer.TC_19_Edit_Customer_With_Email_Must_Be_In_Correct_Format()'><b>TC_19_Edit_Customer_With_Email_Must_Be_In_Correct_Format</b><br>Test class: bankguru.customer.Customer_02_Edit_Customer<br/>
-<a href="#Output-34384007" onClick='toggleBox("Output-34384007", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-34384007" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-34384007">
-[INFO ] [2021-08-04 22:58:12,129] Edit_Customer_Email must be in correct format - Step 01:  Input numeric to 'Email' textbox with value: 'anhtran@'
-<br/>
-[INFO ] [2021-08-04 22:58:12,225] Edit_Customer_Pin must be in correct format - Step 02: Verify warning message is displayed with 'Email-ID is not valid'
-<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>bankguru.customer.Customer_02_Edit_Customer@a33b4e3</td></tr>
+<td>bankguru.customer.Customer_07_Ministatement@446c3920</td></tr>
 </table><p>
 </body>
 </html>

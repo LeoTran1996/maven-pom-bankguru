@@ -3,16 +3,16 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Run on firefox</title>
+  <title>Test Results Report - Run on chrome</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Run on firefox</h1>
+<h1>Run on chrome</h1>
 <p>
-  Test duration: 22.258s
+  Test duration: 17.166s
 </p>
 
 
@@ -22,25 +22,25 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">bankguru.customer.Customer_02_Edit_Customer</td>
+        <td colspan="3" class="group">bankguru.customer.Customer_10_Change_Password</td>
       </tr>
             
 <tr>
   <td class="method">
-                  TC_01_Edit_Customer_CustomerID_Canot_Be_Empty
+                  TC_01_Change_Password_Old_Password_Can_Not_Be_Empty
       </td>
   <td class="duration">
-    0.510s
+    0.506s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:06,774] Edit_Customer_CustomerID cannot be empty - Step 01: Input blank value to &apos;CustomerID&apos; textbox<br/>
+                        [INFO ] [2021-08-05 22:41:09,335] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to &apos;Old Password&apos; textbox<br/>
 <br />
-                                [INFO ] [2021-08-04 22:58:06,936] Edit_Customer_CustomerID cannot be empty - Step 02: Press key TAB to &apos;CustomerID&apos; textbox<br/>
+                                [INFO ] [2021-08-05 22:41:09,466] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to &apos;Old Password&apos; textbox<br/>
 <br />
-                                [INFO ] [2021-08-04 22:58:07,110] Edit_Customer_CustomerID cannot be empty - Step 03: Verify warning message is displayed with &apos;Customer ID is required&apos;<br/>
+                                [INFO ] [2021-08-05 22:41:09,679] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with &apos;Old Password must not be blank&apos;<br/>
 <br />
                   </div>
     
@@ -49,18 +49,20 @@
 </tr>
 <tr>
   <td class="method">
-                  TC_02_Edit_Customer_CustomerID_Must_Be_Numeric
+                  TC_02_Change_Password_New_Password_Can_Not_Be_Empty
       </td>
   <td class="duration">
-    0.207s
+    0.381s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:07,318] New_Customer_CustomerID cannot be numeric - Step 01:&nbsp; Input numeric to &apos;CustomerID&apos; textbox with value: &apos;anhtran123&apos;<br/>
+                        [INFO ] [2021-08-05 22:41:09,894] Change_Password_New_Password cannot be empty - Step 01: Input blank value to &apos;New Password&apos; textbox<br/>
 <br />
-                                [INFO ] [2021-08-04 22:58:07,470] New_Customer_CustomerID cannot be numeric - Step 02: Verify warning message is displayed with &apos;Characters are not allowed&apos;<br/>
+                                [INFO ] [2021-08-05 22:41:10,045] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to &apos;New Password&apos; textbox<br/>
+<br />
+                                [INFO ] [2021-08-05 22:41:10,205] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with &apos;Old Password must not be blank&apos;<br/>
 <br />
                   </div>
     
@@ -69,18 +71,18 @@
 </tr>
 <tr>
   <td class="method">
-                  TC_03_Edit_Customer_CustomerID_Can_Not_Have_Special_Characters
+                  TC_03_Change_Password_New_Password_Must_Have_One_Numeric_Value
       </td>
   <td class="duration">
-    0.177s
+    0.137s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:07,543] New_Customer_CustomerID cannot have special charater - Step 01:&nbsp; Input to &apos;CustomerID&apos; textbox with value: &apos;123@#&apos;<br/>
+                        [INFO ] [2021-08-05 22:41:10,289] Change_Password_New_Password must have one numeric value - Step 01:&nbsp; Input to &apos;New Password&apos; textbox with value: &apos;anhtran@!&apos;<br/>
 <br />
-                                [INFO ] [2021-08-04 22:58:07,672] New_Customer_CustomerID cannot have special charater - Step 02: Verify warning message is displayed with &apos;Special characters are not allowed&apos;<br/>
+                                [INFO ] [2021-08-05 22:41:10,379] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with &apos;Enter at-least one numeric value&apos;<br/>
 <br />
                   </div>
     
@@ -89,297 +91,7 @@
 </tr>
 <tr>
   <td class="method">
-                  TC_04_Edit_Customer_CustomerID_Valid_Customer_ID
-      </td>
-  <td class="duration">
-    0.854s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:07,722] New_Customer_CustomerID Valid CustomerID&nbsp; - Step 01: Input valid customerID to &apos;Customer ID&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:07,834] New_Customer_CustomerID Valid CustomerID&nbsp; - Step 02: Click to Submit button<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_05_Edit_Customer_Address_Can_Not_Be_Empty
-      </td>
-  <td class="duration">
-    0.358s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:08,579] Edit_Customer_Address cannot be empty - Step 01: Input blank value to &apos;Address&apos; textarea<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:08,692] Edit_Customer_Address cannot be empty - Step 02: Press key TAB to &apos;Address&apos; textarea<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:08,871] Edit_Customer_Address cannot be empty - Step 03: Verify warning message is displayed with &apos;Address Field must not be blank&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_06_Edit_Customer_City_Can_Not_Be_Empty
-      </td>
-  <td class="duration">
-    0.357s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:08,938] Edit_Customer_City cannot be empty - Step 01: Input blank value to &apos;City&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:09,044] Edit_Customer_City cannot be empty - Step 02: Press key TAB to &apos;City&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:09,223] Edit_Customer_City cannot be empty - Step 03: Verify warning message is displayed with &apos;City Field must not be blank&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_07_Edit_Customer_City_Can_Not_Be_Numeric
-      </td>
-  <td class="duration">
-    0.159s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:09,298] Edit_Customer_City cannot be numeric - Step 01:&nbsp; Input numeric to &apos;City&apos; textbox with value: &apos;anhtran123&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:09,414] Edit_Customer_City cannot be numeric - Step 02: Verify warning message is displayed with &apos;Numbers are not allowed&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_08_Edit_Customer_City_With_Name_Can_Not_Have_Special_Characters
-      </td>
-  <td class="duration">
-    0.173s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:09,459] Edit_Customer_City cannot have special charater - Step 01:&nbsp; Input to &apos;City&apos; textbox with value: &apos;anhtran@#&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:09,567] Edit_Customer_City cannot have special charater - Step 02: Verify warning message is displayed with &apos;Special characters are not allowed&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_09_Edit_Customer_With_State_Can_Not_Be_Empty
-      </td>
-  <td class="duration">
-    0.331s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:09,645] Edit_Customer_State cannot be empty - Step 01: Input blank value to &apos;State&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:09,763] Edit_Customer_State cannot be empty - Step 02: Press key TAB to &apos;State&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:09,909] New_Customer_State cannot be empty - Step 03: Verify warning message is displayed with &apos;State must not be blank&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_10_Edit_Customer_With_State_Can_Not_Be_Numeric
-      </td>
-  <td class="duration">
-    0.143s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:09,978] Edit_Customer_State cannot be numeric - Step 01:&nbsp; Input numeric to &apos;State&apos; textbox with value: &apos;anhtran123&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:10,079] Edit_Customer_State cannot be numeric - Step 02: Verify warning message is displayed with &apos;Numbers are not allowed&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_11_Edit_Customer_With_State_Can_Not_Have_Special_Characters
-      </td>
-  <td class="duration">
-    0.138s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:10,124] New_Customer_State cannot have special charater - Step 01:&nbsp; Input to &apos;State&apos; textbox with value: &apos;anhtran@#&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:10,223] New_Customer_State cannot have special charater - Step 02: Verify warning message is displayed with &apos;Special characters are not allowed&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_12_Edit_Customer_With_Pin_Can_Not_Be_Empty
-      </td>
-  <td class="duration">
-    0.327s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:10,265] Edit_Customer_Pin cannot be empty - Step 01: Input blank value to &apos;Pin&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:10,382] Edit_Customer_Pin cannot be empty - Step 02: Press key TAB to &apos;Pin&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:10,531] Edit_Customer cannot be empty - Step 03: Verify warning message is displayed with &apos;PIN Code must not be blank&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_13_Edit_Customer_With_Pin_Must_Be_Numeric
-      </td>
-  <td class="duration">
-    0.138s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:10,594] Edit_Customer_Pin must be numeric - Step 01:&nbsp; Input numeric to &apos;Pin&apos; textbox with value: &apos;123pin&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:10,692] Edit_Customer_Pin must be numeric - Step 02: Verify warning message is displayed with &apos;Characters are not allowed&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_14_Edit_Customer_With_Pin_Can_Not_Have_Special_Characters
-      </td>
-  <td class="duration">
-    0.145s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:10,734] New_Customer_Pin cannot have special charater - Step 01:&nbsp; Input to &apos;Pin&apos; textbox with value: &apos;@#anh&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:10,840] New_Customer_Pin cannot have special charater - Step 02: Verify warning message is displayed with &apos;Special characters are not allowed&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_15_Edit_Customer_With_Mobile_Number_Can_Not_Be_Empty
-      </td>
-  <td class="duration">
-    0.339s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:10,881] Edit_Customerr_Mobile Number cannot be empty - Step 01: Input blank value to &apos;Mobile Number&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:11,001] Edit_Customer_Mobile Number cannot be empty - Step 02: Press key TAB to &apos;Mobile Number&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:11,163] Edit_Customer_Mobile Number cannot be empty - Step 03: Verify warning message is displayed with &apos;Mobile no must not be blank&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_15_Edit_Customer_With_With_Pin_Must_Have_6_Digits
-      </td>
-  <td class="duration">
-    0.144s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:11,223] Edit_Customer_Pin must have 6 digits - Step 01:&nbsp; Input to &apos;Pin&apos; textbox with value: &apos;1234&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:11,324] Edit_Customer_Pin must have 6 digits - Step 02: Verify warning message is displayed with &apos;PIN Code must have 6 Digits&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_16_Edit_Customer_With_Mobile_Number_Can_Not_Have_First_Character_As_Blank
-      </td>
-  <td class="duration">
-    0.155s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:11,523] Edit_Customer_Mobile Number cannot have first character as blank space - Step 01:&nbsp; Input to &apos;Mobile Number&apos; textbox with value: &apos; 123&apos;<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:11,631] Edit_Customer_Mobile Number cannot have first character as blank space - Step 02: Verify warning message is displayed with &apos;First character can not have space&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_17_Edit_Customer_With_Mobile_Number_Pin_Can_Not_Have_Special_Characters
+                  TC_04_Change_Password_New_Password_Must_Have_One_Special_Character
       </td>
   <td class="duration">
     0.150s
@@ -388,31 +100,9 @@
         
     
             <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:11,680] Edit_Customer_Mobile Numbercannot have special charater - Step 01:&nbsp; Input to &apos;Mobile Number&apos; textbox with value: &apos;8888$3#&apos;<br/>
+                        [INFO ] [2021-08-05 22:41:10,426] Change_Password_New_Password must have one special chatacter - Step 01:&nbsp; Input to &apos;New Password&apos; textbox with value: &apos;anhtran123&apos;<br/>
 <br />
-                                [INFO ] [2021-08-04 22:58:11,785] Edit_Customer_Mobile Number cannot have special charater - Step 02: Verify warning message is displayed with &apos;Special characters are not allowed&apos;<br/>
-<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  TC_18_Edit_Customer_With_Email_Can_Not_Be_Empty
-      </td>
-  <td class="duration">
-    0.296s
-  </td>
-  <td class="result">
-        
-    
-            <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:11,832] Edit_Customer_Email cannot be empty - Step 01: Input blank value to &apos;Email&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:11,943] Edit_Customer_Email cannot be empty - Step 02: Press key TAB to &apos;Email-ID must not be blank&apos; textbox<br/>
-<br />
-                                [INFO ] [2021-08-04 22:58:12,076] Edit_Customer_Email cannot be empty - Step 03: Verify warning message is displayed with &apos;Email-ID must not be blank&apos;<br/>
+                                [INFO ] [2021-08-05 22:41:10,534] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with &apos;Enter at-least one special character&apos;<br/>
 <br />
                   </div>
     
@@ -421,18 +111,18 @@
 </tr>
 <tr>
   <td class="method">
-                  TC_19_Edit_Customer_With_Email_Must_Be_In_Correct_Format
+                  TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password
       </td>
   <td class="duration">
-    0.134s
+    0.156s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        [INFO ] [2021-08-04 22:58:12,129] Edit_Customer_Email must be in correct format - Step 01:&nbsp; Input numeric to &apos;Email&apos; textbox with value: &apos;anhtran@&apos;<br/>
+                        [INFO ] [2021-08-05 22:41:10,579] Change_Password_New_Password cannot have password with string &apos;password&apos; - Step 01:&nbsp; Input to &apos;New Password&apos; textbox with value: &apos;anhtran@!password&apos;<br/>
 <br />
-                                [INFO ] [2021-08-04 22:58:12,225] Edit_Customer_Pin must be in correct format - Step 02: Verify warning message is displayed with &apos;Email-ID is not valid&apos;<br/>
+                                [INFO ] [2021-08-05 22:41:10,694] Change_Password_New_Password cannot have password with string &apos;password&apos; - Step 02: Verify warning message is displayed with &apos;Choose a difficult Password&apos;<br/>
 <br />
                   </div>
     

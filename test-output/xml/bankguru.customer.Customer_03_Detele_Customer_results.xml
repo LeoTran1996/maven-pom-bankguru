@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on firefox"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.542">
+  <properties />
+  
+  
+            <testcase name="TC_01_Delete_Customer_CustomerID_Canot_Be_Empty" time="0.465" classname="bankguru.customer.Customer_03_Detele_Customer" />
+                <testcase name="TC_02_Delete_Customer_CustomerID_Must_Be_Numeric" time="0.206" classname="bankguru.customer.Customer_03_Detele_Customer" />
+                <testcase name="TC_04_Delete_Customer_CustomerID_With_Name_Can_Not_Have_First_Character_As_Blank" time="0.213" classname="bankguru.customer.Customer_03_Detele_Customer" />
+                <testcase name="TC_06_Delete_Customer_CustomerID_With_Pin_Can_Not_Have_Blank_Space" time="0.168" classname="bankguru.customer.Customer_03_Detele_Customer" />
+                <testcase name="TC_07_Delete_Customer_CustomerID_With_Valid_Customer_ID" time="1.295" classname="bankguru.customer.Customer_03_Detele_Customer" />
+                <testcase name="TC_03_Delete_Customer_CustomerID_Can_Not_Have_Special_Characters" time="0.195" classname="bankguru.customer.Customer_03_Detele_Customer" />
+      
+</testsuite>

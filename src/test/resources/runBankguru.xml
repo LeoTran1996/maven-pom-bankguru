@@ -10,11 +10,12 @@
 <!-- 	<listener class-name="reportConfig.AllureTestListener" /> -->
 	</listeners>
 
-  <test name="Run on firefox">
+  <test name="Run on chrome">
   <parameter name = "browser" value ="chrome" />
     <classes>
 <!--       <class name="bankguru.customer.Customer_01_New_Customer"/> -->
-      <class name="bankguru.customer.Customer_02_Edit_Customer"/>
+<!--       <class name="bankguru.customer.Customer_02_Edit_Customer"/> -->
+      <class name="bankguru.customer.Customer_10_Change_Password"/>
     </classes>
   </test> 
   

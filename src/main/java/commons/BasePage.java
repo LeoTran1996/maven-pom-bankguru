@@ -74,8 +74,8 @@ public class BasePage {
 		driver.switchTo().alert().dismiss();
 	}
 
-	public void getAlertText(WebDriver driver) {
-		driver.switchTo().alert().getText();
+	public String getAlertText(WebDriver driver) {
+		return driver.switchTo().alert().getText();
 	}
 
 	public void sendkeyToAlert(WebDriver driver, String value) {
@@ -523,6 +523,14 @@ public class BasePage {
 		waitforElementVisible(driver, locator);
 		return isElementDisplayed(driver, locator);
 	}
+	
+	public boolean isHeadinglDisplayedByTextName(WebDriver driver, String nameText) {
+		locator = getDynamicLocator(BasePageUI.DYNAMIC_HEADING_BY_TEXT, nameText);
+		waitforElementVisible(driver, locator);
+		return isElementDisplayed(driver, locator);
+	}
+	
+	
 	
 	private String locator;
 }

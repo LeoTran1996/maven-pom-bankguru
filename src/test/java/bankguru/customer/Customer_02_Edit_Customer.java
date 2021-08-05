@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import pageObject.HomePageObject;
 import pageObject.LoginPageObject;
-import pageObject.NewCustomerPageObject;
+import pageObject.CustomerPageObject;
 import pageObject.PageGeneratorManager;
 import pageObject.RegisterPageObject;
 import pageUI.BasePageUI;
@@ -30,7 +30,7 @@ public class Customer_02_Edit_Customer extends BaseTest {
 		city = fakeData.getCityName();
 		customerName = fakeData.getFirstname() + " " + fakeData.getLastname();
 		addr = fakeData.getAddress();
-		dob = "03/07/1996";
+		dayofBirth = "03/02/1998";
 		state = "Tan Binh";
 		pin = "123456";
 		mobileNumber = "0964123456";
@@ -82,8 +82,8 @@ public class Customer_02_Edit_Customer extends BaseTest {
 		log.info("Pre-condition - Step 14: Input to 'Customer Name' textbox with value" + customerName);
 		newCusomerPage.sendKeyToTextboxByName(driver, customerName, "name");
 
-		log.info("Pre-condition - Step 15: Input to 'Date of Birth' textbox with value" + dob);
-		newCusomerPage.sendKeyToTextboxByName(driver, dob, "dob");
+		log.info("Pre-condition - Step 15: Input to 'Date of Birth' textbox with value" + dayofBirth);
+		newCusomerPage.sendKeyToTextboxByName(driver, dayofBirth, "dob");
 
 		log.info("Pre-condition - Step 16: Input to 'Address' textbox with value" + addr);
 		newCusomerPage.sendKeyToTextAreaByName(driver, addr, "addr");
@@ -118,6 +118,9 @@ public class Customer_02_Edit_Customer extends BaseTest {
 		log.info("Pre-condition - Step 25: Click to 'Edit Customer' label");
 		newCusomerPage.openPageAtLeftSubMenuByText(driver, "Edit Customer");
 
+		log.info("Pre-condition - Step 26: Verify 'Edit Customer Form' heading is displayed");
+		newCusomerPage.isHeadinglDisplayedByTextName(driver, "Edit Customer Form");
+
 	}
 
 	@Test
@@ -137,30 +140,34 @@ public class Customer_02_Edit_Customer extends BaseTest {
 	@Test
 	public void TC_02_Edit_Customer_CustomerID_Must_Be_Numeric() {
 
-		log.info("New_Customer_CustomerID cannot be numeric - Step 01:  Input numeric to 'CustomerID' textbox with value: 'anhtran123'");
+		log.info("Edit_Customer_CustomerID cannot be numeric - Step 01:  Input numeric to 'CustomerID' textbox with value: 'anhtran123'");
 		newCusomerPage.sendKeyToTextboxByName(driver, "anhtran123", "cusid");
 
-		log.info("New_Customer_CustomerID cannot be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'");
+		log.info("Edit_Customer_CustomerID cannot be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "14"), "Characters are not allowed");
 	}
 
 	@Test
 	public void TC_03_Edit_Customer_CustomerID_Can_Not_Have_Special_Characters() {
 
-		log.info("New_Customer_CustomerID cannot have special charater - Step 01:  Input to 'CustomerID' textbox with value: '123@#'");
+		log.info("Edit_Customer_CustomerID cannot have special charater - Step 01:  Input to 'CustomerID' textbox with value: '123@#'");
 		newCusomerPage.sendKeyToTextboxByName(driver, "123@#", "cusid");
 
-		log.info("New_Customer_CustomerID cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
+		log.info("Edit_Customer_CustomerID cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "14"), "Special characters are not allowed");
 	}
 
 	@Test
 	public void TC_04_Edit_Customer_CustomerID_Valid_Customer_ID() {
-		log.info("New_Customer_CustomerID Valid CustomerID  - Step 01: Input valid customerID to 'Customer ID' textbox");
+		log.info("Edit_Customer_CustomerID Valid CustomerID  - Step 01: Input valid customerID to 'Customer ID' textbox");
 		newCusomerPage.sendKeyToTextboxByName(driver, customerID, "cusid");
 
-		log.info("New_Customer_CustomerID Valid CustomerID  - Step 02: Click to Submit button");
+		log.info("Edit_Customer_CustomerID Valid CustomerID  - Step 02: Click to Submit button");
 		newCusomerPage.clickToButtonByName(driver, "AccSubmit");
+
+		log.info("Edit_Customer_CustomerID Valid CustomerID  - Step 03: Verify 'Edit Customer' heading is displayed");
+		newCusomerPage.isHeadinglDisplayedByTextName(driver, "Edit Customer");
+
 	}
 
 	@Test
@@ -268,10 +275,10 @@ public class Customer_02_Edit_Customer extends BaseTest {
 	@Test
 	public void TC_14_Edit_Customer_With_Pin_Can_Not_Have_Special_Characters() {
 
-		log.info("New_Customer_Pin cannot have special charater - Step 01:  Input to 'Pin' textbox with value: '@#anh'");
+		log.info("Edit_Customer_Pin cannot have special charater - Step 01:  Input to 'Pin' textbox with value: '@#anh'");
 		newCusomerPage.sendKeyToTextboxByName(driver, "@#anh", "pinno");
 
-		log.info("New_Customer_Pin cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
+		log.info("Edit_Customer_Pin cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "6"), "Special characters are not allowed");
 	}
 
@@ -284,7 +291,7 @@ public class Customer_02_Edit_Customer extends BaseTest {
 		log.info("Edit_Customer_Pin must have 6 digits - Step 02: Verify warning message is displayed with 'PIN Code must have 6 Digits'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "6"), "PIN Code must have 6 Digits");
 	}
-	
+
 	@Test
 	public void TC_15_Edit_Customer_With_Mobile_Number_Can_Not_Be_Empty() {
 
@@ -307,9 +314,9 @@ public class Customer_02_Edit_Customer extends BaseTest {
 		log.info("Edit_Customer_Mobile Number cannot have first character as blank space - Step 02: Verify warning message is displayed with 'First character can not have space'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "7"), "First character can not have space");
 	}
-	
+
 	@Test
-	public void  TC_17_Edit_Customer_With_Mobile_Number_Pin_Can_Not_Have_Special_Characters() {
+	public void TC_17_Edit_Customer_With_Mobile_Number_Pin_Can_Not_Have_Special_Characters() {
 
 		log.info("Edit_Customer_Mobile Numbercannot have special charater - Step 01:  Input to 'Mobile Number' textbox with value: '8888$3#'");
 		newCusomerPage.sendKeyToTextboxByName(driver, "8888$3#", "telephoneno");
@@ -317,7 +324,7 @@ public class Customer_02_Edit_Customer extends BaseTest {
 		log.info("Edit_Customer_Mobile Number cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "7"), "Special characters are not allowed");
 	}
-	
+
 	@Test
 	public void TC_18_Edit_Customer_With_Email_Can_Not_Be_Empty() {
 
@@ -347,11 +354,11 @@ public class Customer_02_Edit_Customer extends BaseTest {
 	}
 
 	String url, emailID, userID, passwordLogin;
-	String email, customerName, addr, state, city, pin, mobileNumber, password, dob, customerID;
+	String email, customerName, addr, state, city, pin, mobileNumber, password, dayofBirth, customerID;
 	WebDriver driver;
 	FakerConfig fakeData;
 	LoginPageObject loginPage;
 	RegisterPageObject registerPage;
 	HomePageObject homePage;
-	NewCustomerPageObject newCusomerPage;
+	CustomerPageObject newCusomerPage;
 }

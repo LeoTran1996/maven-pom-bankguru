@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import pageObject.HomePageObject;
 import pageObject.LoginPageObject;
-import pageObject.NewCustomerPageObject;
+import pageObject.CustomerPageObject;
 import pageObject.PageGeneratorManager;
 import pageObject.RegisterPageObject;
 import pageUI.BasePageUI;
@@ -72,11 +72,14 @@ public class Customer_01_New_Customer extends BaseTest {
 		log.info("New_Customer_Name cannot be empty - Step 01: Click to 'New Customer' Link");
 		homePage.openPageAtLeftSubMenuByText(driver, "New Customer");
 		newCusomerPage = PageGeneratorManager.getNewCustomerPage(driver);
+		
+		log.info("New_Customer_Name cannot be empty - Step 02: Verify 'Add New Customer' heading is displayed");
+		newCusomerPage.isHeadinglDisplayedByTextName(driver, "Add New Customer");
 
-		log.info("New_Customer_Name cannot be empty - Step 02: Input blank value to 'Customer Name' textbox");
+		log.info("New_Customer_Name cannot be empty - Step 03: Input blank value to 'Customer Name' textbox");
 		newCusomerPage.sendKeyToTextboxByName(driver, "", "name");
 
-		log.info("New_Customer_Name cannot be empty - Step 03: Press key TAB to 'Customer Name' textbox");
+		log.info("New_Customer_Name cannot be empty - Step 04: Press key TAB to 'Customer Name' textbox");
 		newCusomerPage.sendKeyboardToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_NAME, Keys.TAB, "name");
 
 		log.info("New_Customer_Name cannot be empty - Step 04: Verify warning message is displayed with 'Customer name must not be blank'");
@@ -399,5 +402,5 @@ public class Customer_01_New_Customer extends BaseTest {
 	LoginPageObject loginPage;
 	RegisterPageObject registerPage;
 	HomePageObject homePage;
-	NewCustomerPageObject newCusomerPage;
+	CustomerPageObject newCusomerPage;
 }

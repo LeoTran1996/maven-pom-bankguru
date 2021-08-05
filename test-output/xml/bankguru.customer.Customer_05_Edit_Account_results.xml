@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on firefox"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.278">
+  <properties />
+  
+  
+            <testcase name="TC_03_Edit_Account_AccountNo_Can_Not_Have_Special_Characters" time="0.138" classname="bankguru.customer.Customer_05_Edit_Account" />
+                <testcase name="TC_02_Edit_Account_AccountNo_Must_Be_Numeric" time="0.171" classname="bankguru.customer.Customer_05_Edit_Account" />
+                <testcase name="TC_01_Edit_Account_AccountNo_Canot_Be_Empty" time="0.498" classname="bankguru.customer.Customer_05_Edit_Account" />
+                <testcase name="TC_04_Edit_Account_AccountNo_Valid_AccountNo" time="1.471" classname="bankguru.customer.Customer_05_Edit_Account" />
+      
+</testsuite>

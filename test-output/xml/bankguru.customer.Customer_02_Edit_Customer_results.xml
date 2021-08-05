@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on firefox"
-           tests="20"
+           tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="5.235">
+           time="0.116">
   <properties />
   
   
-            <testcase name="TC_16_Edit_Customer_With_Mobile_Number_Can_Not_Have_First_Character_As_Blank" time="0.155" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_02_Edit_Customer_CustomerID_Must_Be_Numeric" time="0.207" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_10_Edit_Customer_With_State_Can_Not_Be_Numeric" time="0.143" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_06_Edit_Customer_City_Can_Not_Be_Empty" time="0.357" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_04_Edit_Customer_CustomerID_Valid_Customer_ID" time="0.854" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_19_Edit_Customer_With_Email_Must_Be_In_Correct_Format" time="0.134" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_11_Edit_Customer_With_State_Can_Not_Have_Special_Characters" time="0.138" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_01_Edit_Customer_CustomerID_Canot_Be_Empty" time="0.510" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_12_Edit_Customer_With_Pin_Can_Not_Be_Empty" time="0.327" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_17_Edit_Customer_With_Mobile_Number_Pin_Can_Not_Have_Special_Characters" time="0.150" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_07_Edit_Customer_City_Can_Not_Be_Numeric" time="0.159" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_08_Edit_Customer_City_With_Name_Can_Not_Have_Special_Characters" time="0.173" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_14_Edit_Customer_With_Pin_Can_Not_Have_Special_Characters" time="0.145" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_18_Edit_Customer_With_Email_Can_Not_Be_Empty" time="0.296" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_15_Edit_Customer_With_With_Pin_Must_Have_6_Digits" time="0.144" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_13_Edit_Customer_With_Pin_Must_Be_Numeric" time="0.138" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_15_Edit_Customer_With_Mobile_Number_Can_Not_Be_Empty" time="0.339" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_05_Edit_Customer_Address_Can_Not_Be_Empty" time="0.358" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_09_Edit_Customer_With_State_Can_Not_Be_Empty" time="0.331" classname="bankguru.customer.Customer_02_Edit_Customer" />
-                <testcase name="TC_03_Edit_Customer_CustomerID_Can_Not_Have_Special_Characters" time="0.177" classname="bankguru.customer.Customer_02_Edit_Customer" />
+            <testcase name="ABC" time="0.116" classname="bankguru.customer.Customer_02_Edit_Customer" />
       
 </testsuite>

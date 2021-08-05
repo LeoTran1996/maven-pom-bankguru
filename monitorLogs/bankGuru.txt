@@ -1,76 +1,28 @@
-[INFO ] [2021-08-04 22:57:51,455] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
-[INFO ] [2021-08-04 22:57:57,902] Pre-condition - Step 02: Get current Url
-[INFO ] [2021-08-04 22:57:57,910] Pre-condition - Step 03: Click to 'here' link
-[INFO ] [2021-08-04 22:57:59,444] Pre-condition - Step 04: Enter to 'Email ID' textbox
-[INFO ] [2021-08-04 22:57:59,625] Pre-condition - Step 05: Click to 'Submit' button
-[INFO ] [2021-08-04 22:58:00,464] Pre-condition - Step 06: Get 'User ID' value
-[INFO ] [2021-08-04 22:58:00,525] Pre-condition - Step 07: Get 'Password' value
-[INFO ] [2021-08-04 22:58:00,577] Pre-condition - Step 08: Back to LoginPage
-[INFO ] [2021-08-04 22:58:01,455] Pre-condition - Step 09: Enter to 'UserID' textbox
-[INFO ] [2021-08-04 22:58:01,621] Pre-condition - Step 10: Enter to 'Password' textbox
-[INFO ] [2021-08-04 22:58:01,754] Pre-condition - Step 11: Click to 'Login' button
-[INFO ] [2021-08-04 22:58:02,937] Pre-condition - Step 12: Verify login success message is displayed
-[INFO ] [2021-08-04 22:58:03,002] Pre-condition - Step 13: Click to 'New Customer' Link
-[INFO ] [2021-08-04 22:58:03,522] Pre-condition - Step 14: Input to 'Customer Name' textbox with valueTanja Nitzsche
-[INFO ] [2021-08-04 22:58:03,683] Pre-condition - Step 15: Input to 'Date of Birth' textbox with value03/07/1996
-[INFO ] [2021-08-04 22:58:03,813] Pre-condition - Step 16: Input to 'Address' textbox with value54781 Leonel Track
-[INFO ] [2021-08-04 22:58:03,968] Pre-condition - Step 17: Input to 'City' textbox with valueEast Xavier
-[INFO ] [2021-08-04 22:58:04,101] Pre-condition - Step 18: Input to 'State' textbox with valueTan Binh
-[INFO ] [2021-08-04 22:58:04,233] Pre-condition - Step 19: Input to 'PIN' textbox with value123456
-[INFO ] [2021-08-04 22:58:04,366] Pre-condition - Step 20: Input to 'Mobile Number' textbox with value0964123456
-[INFO ] [2021-08-04 22:58:04,500] Pre-condition - Step 21: Input to 'E-mail' textbox with valuehoracio.smith@yahoo.com
-[INFO ] [2021-08-04 22:58:04,662] Pre-condition - Step 22: Input to 'Password' textbox with valuel1nu5o
-[INFO ] [2021-08-04 22:58:04,780] Pre-condition - Step 23: Click to 'Submit' button
-[INFO ] [2021-08-04 22:58:05,839] Pre-condition - Step 23: Verify success message is displayed with content 'Customer Registered Successfully!!!'
-[INFO ] [2021-08-04 22:58:05,897]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-08-04 22:58:05,897] Pre-condition - Step 24: Get 'Customer ID' text value
-[INFO ] [2021-08-04 22:58:05,944] Pre-condition - Step 25: Click to 'Edit Customer' label
-[INFO ] [2021-08-04 22:58:06,774] Edit_Customer_CustomerID cannot be empty - Step 01: Input blank value to 'CustomerID' textbox
-[INFO ] [2021-08-04 22:58:06,936] Edit_Customer_CustomerID cannot be empty - Step 02: Press key TAB to 'CustomerID' textbox
-[INFO ] [2021-08-04 22:58:07,110] Edit_Customer_CustomerID cannot be empty - Step 03: Verify warning message is displayed with 'Customer ID is required'
-[INFO ] [2021-08-04 22:58:07,318] New_Customer_CustomerID cannot be numeric - Step 01:  Input numeric to 'CustomerID' textbox with value: 'anhtran123'
-[INFO ] [2021-08-04 22:58:07,470] New_Customer_CustomerID cannot be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'
-[INFO ] [2021-08-04 22:58:07,543] New_Customer_CustomerID cannot have special charater - Step 01:  Input to 'CustomerID' textbox with value: '123@#'
-[INFO ] [2021-08-04 22:58:07,672] New_Customer_CustomerID cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-[INFO ] [2021-08-04 22:58:07,722] New_Customer_CustomerID Valid CustomerID  - Step 01: Input valid customerID to 'Customer ID' textbox
-[INFO ] [2021-08-04 22:58:07,834] New_Customer_CustomerID Valid CustomerID  - Step 02: Click to Submit button
-[INFO ] [2021-08-04 22:58:08,579] Edit_Customer_Address cannot be empty - Step 01: Input blank value to 'Address' textarea
-[INFO ] [2021-08-04 22:58:08,692] Edit_Customer_Address cannot be empty - Step 02: Press key TAB to 'Address' textarea
-[INFO ] [2021-08-04 22:58:08,871] Edit_Customer_Address cannot be empty - Step 03: Verify warning message is displayed with 'Address Field must not be blank'
-[INFO ] [2021-08-04 22:58:08,938] Edit_Customer_City cannot be empty - Step 01: Input blank value to 'City' textbox
-[INFO ] [2021-08-04 22:58:09,044] Edit_Customer_City cannot be empty - Step 02: Press key TAB to 'City' textbox
-[INFO ] [2021-08-04 22:58:09,223] Edit_Customer_City cannot be empty - Step 03: Verify warning message is displayed with 'City Field must not be blank'
-[INFO ] [2021-08-04 22:58:09,298] Edit_Customer_City cannot be numeric - Step 01:  Input numeric to 'City' textbox with value: 'anhtran123'
-[INFO ] [2021-08-04 22:58:09,414] Edit_Customer_City cannot be numeric - Step 02: Verify warning message is displayed with 'Numbers are not allowed'
-[INFO ] [2021-08-04 22:58:09,459] Edit_Customer_City cannot have special charater - Step 01:  Input to 'City' textbox with value: 'anhtran@#'
-[INFO ] [2021-08-04 22:58:09,567] Edit_Customer_City cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-[INFO ] [2021-08-04 22:58:09,645] Edit_Customer_State cannot be empty - Step 01: Input blank value to 'State' textbox
-[INFO ] [2021-08-04 22:58:09,763] Edit_Customer_State cannot be empty - Step 02: Press key TAB to 'State' textbox
-[INFO ] [2021-08-04 22:58:09,909] New_Customer_State cannot be empty - Step 03: Verify warning message is displayed with 'State must not be blank'
-[INFO ] [2021-08-04 22:58:09,978] Edit_Customer_State cannot be numeric - Step 01:  Input numeric to 'State' textbox with value: 'anhtran123'
-[INFO ] [2021-08-04 22:58:10,079] Edit_Customer_State cannot be numeric - Step 02: Verify warning message is displayed with 'Numbers are not allowed'
-[INFO ] [2021-08-04 22:58:10,124] New_Customer_State cannot have special charater - Step 01:  Input to 'State' textbox with value: 'anhtran@#'
-[INFO ] [2021-08-04 22:58:10,223] New_Customer_State cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-[INFO ] [2021-08-04 22:58:10,265] Edit_Customer_Pin cannot be empty - Step 01: Input blank value to 'Pin' textbox
-[INFO ] [2021-08-04 22:58:10,382] Edit_Customer_Pin cannot be empty - Step 02: Press key TAB to 'Pin' textbox
-[INFO ] [2021-08-04 22:58:10,531] Edit_Customer cannot be empty - Step 03: Verify warning message is displayed with 'PIN Code must not be blank'
-[INFO ] [2021-08-04 22:58:10,594] Edit_Customer_Pin must be numeric - Step 01:  Input numeric to 'Pin' textbox with value: '123pin'
-[INFO ] [2021-08-04 22:58:10,692] Edit_Customer_Pin must be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'
-[INFO ] [2021-08-04 22:58:10,734] New_Customer_Pin cannot have special charater - Step 01:  Input to 'Pin' textbox with value: '@#anh'
-[INFO ] [2021-08-04 22:58:10,840] New_Customer_Pin cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-[INFO ] [2021-08-04 22:58:10,881] Edit_Customerr_Mobile Number cannot be empty - Step 01: Input blank value to 'Mobile Number' textbox
-[INFO ] [2021-08-04 22:58:11,001] Edit_Customer_Mobile Number cannot be empty - Step 02: Press key TAB to 'Mobile Number' textbox
-[INFO ] [2021-08-04 22:58:11,163] Edit_Customer_Mobile Number cannot be empty - Step 03: Verify warning message is displayed with 'Mobile no must not be blank'
-[INFO ] [2021-08-04 22:58:11,223] Edit_Customer_Pin must have 6 digits - Step 01:  Input to 'Pin' textbox with value: '1234'
-[INFO ] [2021-08-04 22:58:11,324] Edit_Customer_Pin must have 6 digits - Step 02: Verify warning message is displayed with 'PIN Code must have 6 Digits'
-[INFO ] [2021-08-04 22:58:11,523] Edit_Customer_Mobile Number cannot have first character as blank space - Step 01:  Input to 'Mobile Number' textbox with value: ' 123'
-[INFO ] [2021-08-04 22:58:11,631] Edit_Customer_Mobile Number cannot have first character as blank space - Step 02: Verify warning message is displayed with 'First character can not have space'
-[INFO ] [2021-08-04 22:58:11,680] Edit_Customer_Mobile Numbercannot have special charater - Step 01:  Input to 'Mobile Number' textbox with value: '8888$3#'
-[INFO ] [2021-08-04 22:58:11,785] Edit_Customer_Mobile Number cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'
-[INFO ] [2021-08-04 22:58:11,832] Edit_Customer_Email cannot be empty - Step 01: Input blank value to 'Email' textbox
-[INFO ] [2021-08-04 22:58:11,943] Edit_Customer_Email cannot be empty - Step 02: Press key TAB to 'Email-ID must not be blank' textbox
-[INFO ] [2021-08-04 22:58:12,076] Edit_Customer_Email cannot be empty - Step 03: Verify warning message is displayed with 'Email-ID must not be blank'
-[INFO ] [2021-08-04 22:58:12,129] Edit_Customer_Email must be in correct format - Step 01:  Input numeric to 'Email' textbox with value: 'anhtran@'
-[INFO ] [2021-08-04 22:58:12,225] Edit_Customer_Pin must be in correct format - Step 02: Verify warning message is displayed with 'Email-ID is not valid'
-[INFO ] [2021-08-04 22:58:12,264] OS name = windows 10
-[INFO ] [2021-08-04 22:58:13,450] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-05 22:40:55,123] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-05 22:41:01,865] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-05 22:41:01,871] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-05 22:41:04,258] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-05 22:41:04,455] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-05 22:41:05,367] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-05 22:41:05,420] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-05 22:41:05,471] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-05 22:41:06,687] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-05 22:41:06,868] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-05 22:41:07,032] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-05 22:41:08,617] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-05 22:41:08,682] Pre-condition - Step 13: Click to 'Change Password' label
+[INFO ] [2021-08-05 22:41:09,155] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
+[INFO ] [2021-08-05 22:41:09,335] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
+[INFO ] [2021-08-05 22:41:09,466] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
+[INFO ] [2021-08-05 22:41:09,679] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-05 22:41:09,894] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
+[INFO ] [2021-08-05 22:41:10,045] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
+[INFO ] [2021-08-05 22:41:10,205] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-05 22:41:10,289] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
+[INFO ] [2021-08-05 22:41:10,379] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
+[INFO ] [2021-08-05 22:41:10,426] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
+[INFO ] [2021-08-05 22:41:10,534] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
+[INFO ] [2021-08-05 22:41:10,579] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
+[INFO ] [2021-08-05 22:41:10,694] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
+[INFO ] [2021-08-05 22:41:10,736] OS name = windows 10
+[INFO ] [2021-08-05 22:41:12,267] ---------- QUIT BROWSER SUCCESS ----------

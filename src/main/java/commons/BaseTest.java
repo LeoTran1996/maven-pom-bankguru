@@ -171,6 +171,14 @@ public class BaseTest {
 		}
 		return pass;
 	}
+	public void sleepInSecond(long timeout) {
+		try {
+			Thread.sleep(timeout * 1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 	@BeforeTest
 	public void deleteAllFileInReportNGScreenShot() {

@@ -8,36 +8,17 @@
     <listener class-name="commons.MethodListener"/>
     <listener class-name="reportConfig.ExtentListenerVersion4"/>
   </listeners>
-  <test thread-count="3" parallel="tests" name="Run on firefox(failed)">
+  <test thread-count="3" parallel="tests" name="Run on chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="bankguru.customer.Customer_02_Edit_Customer">
+      <class name="bankguru.customer.Customer_10_Change_Password">
         <methods>
-          <include name="TC_12_Edit_Customer_With_Pin_Can_Not_Be_Empty"/>
-          <include name="TC_11_Edit_Customer_With_State_Can_Not_Have_Special_Characters"/>
-          <include name="beforeClass"/>
-          <include name="TC_09_Edit_Customer_With_State_Can_Not_Be_Empty"/>
-          <include name="TC_14_Edit_Customer_With_Pin_Can_Not_Have_Special_Characters"/>
-          <include name="TC_02_Edit_Customer_CustomerID_Must_Be_Numeric"/>
-          <include name="afterClass"/>
-          <include name="TC_15_Edit_Customer_With_With_Pin_Must_Have_6_Digits"/>
-          <include name="TC_17_Edit_Customer_With_Mobile_Number_Pin_Can_Not_Have_Special_Characters"/>
           <include name="deleteAllFileInReportNGScreenShot"/>
-          <include name="TC_03_Edit_Customer_CustomerID_Can_Not_Have_Special_Characters"/>
-          <include name="TC_15_Edit_Customer_With_Mobile_Number_Can_Not_Be_Empty"/>
-          <include name="TC_07_Edit_Customer_City_Can_Not_Be_Numeric"/>
-          <include name="TC_06_Edit_Customer_City_Can_Not_Be_Empty"/>
-          <include name="TC_18_Edit_Customer_With_Email_Can_Not_Be_Empty"/>
-          <include name="TC_19_Edit_Customer_With_Email_Must_Be_In_Correct_Format"/>
-          <include name="TC_01_Edit_Customer_CustomerID_Canot_Be_Empty"/>
-          <include name="TC_05_Edit_Customer_Address_Can_Not_Be_Empty"/>
-          <include name="TC_08_Edit_Customer_City_With_Name_Can_Not_Have_Special_Characters"/>
-          <include name="TC_10_Edit_Customer_With_State_Can_Not_Be_Numeric"/>
-          <include name="TC_13_Edit_Customer_With_Pin_Must_Be_Numeric"/>
-          <include name="TC_16_Edit_Customer_With_Mobile_Number_Can_Not_Have_First_Character_As_Blank"/>
-          <include name="TC_04_Edit_Customer_CustomerID_Valid_Customer_ID"/>
+          <include name="beforeClass"/>
+          <include name="TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- bankguru.customer.Customer_02_Edit_Customer -->
+      </class> <!-- bankguru.customer.Customer_10_Change_Password -->
     </classes>
-  </test> <!-- Run on firefox(failed) -->
+  </test> <!-- Run on chrome(failed) -->
 </suite> <!-- Failed suite [Customer] -->

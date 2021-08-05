@@ -16,8 +16,8 @@ public class PageGeneratorManager {
 		return new HomePageObject(driver);
 	}
 	
-	public static NewCustomerPageObject getNewCustomerPage(WebDriver driver) {
-		return new NewCustomerPageObject(driver);
+	public static CustomerPageObject getNewCustomerPage(WebDriver driver) {
+		return new CustomerPageObject(driver);
 	}
 	
 }
