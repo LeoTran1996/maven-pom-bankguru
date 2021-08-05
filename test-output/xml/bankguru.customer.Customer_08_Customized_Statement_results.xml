@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on chrome"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.292">
+  <properties />
+  
+  
+            <testcase name="TC_01_Customized_Statement_AccountNo_Canot_Be_Empty" time="0.564" classname="bankguru.customer.Customer_08_Customized_Statement" />
+                <testcase name="TC_07_Customized_Statement_Number_Of_Transaction_Can_Not_Have_Special_Characters" time="0.148" classname="bankguru.customer.Customer_08_Customized_Statement" />
+                <testcase name="TC_06_Customized_Statement_Number_Of_Transaction_Must_Be_Numeric" time="0.196" classname="bankguru.customer.Customer_08_Customized_Statement" />
+                <testcase name="TC_05_Customized_Statement_Minimum_Transaction_Value_Can_Not_Have_Special_Characters" time="0.165" classname="bankguru.customer.Customer_08_Customized_Statement" />
+                <testcase name="TC_08_Customized_Statement_With_Valid_Information" time="1.479" classname="bankguru.customer.Customer_08_Customized_Statement" />
+                <testcase name="TC_02_Customized_Statement_AccountNo_Must_Be_Numeric" time="0.260" classname="bankguru.customer.Customer_08_Customized_Statement" />
+                <testcase name="TC_03_Customized_Statement_AccountNo_Can_Not_Have_Special_Characters" time="0.221" classname="bankguru.customer.Customer_08_Customized_Statement" />
+                <testcase name="TC_04_Customized_Statement_Minimum_Transaction_Value_Must_Be_Numeric" time="0.259" classname="bankguru.customer.Customer_08_Customized_Statement" />
+      
+</testsuite>

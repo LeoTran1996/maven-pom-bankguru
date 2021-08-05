@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on chrome"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.258">
+  <properties />
+  
+  
+            <testcase name="TC_07_Fund_Transfer_Amount_Canot_Be_Empty" time="0.338" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_02_Fund_Transfer_Payers_Account_No_Must_Be_Numeric" time="0.181" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_05_Fund_Transfer_Payees_Account_No_Must_Be_Numeric" time="0.151" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_01_Fund_Transfer_Payers_Account_No_Canot_Be_Empty" time="0.563" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_09_Fund_Transfer_Amount_Can_Not_Have_Special_Characters" time="0.139" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_03_Fund_Transfer_Payers_Account_No_Can_Not_Have_Special_Characters" time="0.206" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_04_Fund_Transfer_Payees_Account_No_Canot_Be_Empty" time="0.395" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_06_Fund_Transfer_Payees_Account_No_Can_Not_Have_Special_Characters" time="0.141" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+                <testcase name="TC_08_Fund_Transfer_Amount_Must_Be_Numeric" time="0.144" classname="bankguru.customer.Customer_09_Fund_Transfer" />
+      
+</testsuite>
