@@ -72,7 +72,7 @@ public class Customer_01_New_Customer extends BaseTest {
 		log.info("New_Customer_Name cannot be empty - Step 01: Click to 'New Customer' Link");
 		homePage.openPageAtLeftSubMenuByText(driver, "New Customer");
 		newCusomerPage = PageGeneratorManager.getNewCustomerPage(driver);
-		
+
 		log.info("New_Customer_Name cannot be empty - Step 02: Verify 'Add New Customer' heading is displayed");
 		newCusomerPage.isHeadinglDisplayedByTextName(driver, "Add New Customer");
 

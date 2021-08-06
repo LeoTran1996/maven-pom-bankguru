@@ -114,7 +114,6 @@ public class Customer_09_Fund_Transfer extends BaseTest {
 		log.info("Pre-condition - Step 23: Click to 'Submit' button");
 		sleepInSecond(3);
 		customerPage.clickToButtonByName(driver, "sub");
-		
 
 		log.info("Pre-condition - Step 23: Verify success message is displayed with content 'Customer Registered Successfully!!!'");
 		verifyTrue(customerPage.isSuccessMessageDisplayed());
@@ -147,77 +146,79 @@ public class Customer_09_Fund_Transfer extends BaseTest {
 		log.info("Pre-condition - Step 32: Click to 'Fund Transfer' label");
 		customerPage.openPageAtLeftSubMenuByText(driver, "Fund Transfer");
 
-		log.info("Pre-condition - Step 33: Verify 'Fund transfer' heading is displayed" );
+		log.info("Pre-condition - Step 33: Verify 'Fund transfer' heading is displayed");
 		customerPage.isHeadinglDisplayedByTextName(driver, "Fund transfer");
 
 	}
 
 	@Test
 	public void TC_01_Fund_Transfer_Payers_Account_No_Canot_Be_Empty() {
-		
+
 		log.info("Fund_Transfer_Payers_Account_No cannot be empty - Step 01: Input blank value to 'Payers  account no' textbox");
 		customerPage.sendKeyToTextboxByName(driver, "", "payersaccount");
-		
+
 		log.info("Fund_Transfer_Payers_Account_No cannot be empty - Step 02: Press key TAB to 'Payers  account no' textbox");
 		customerPage.sendKeyboardToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_NAME, Keys.TAB, "payersaccount");
-		
+
 		log.info("Fund_Transfer_Payers_Account_No cannot be empty - Step 03: Verify warning message is displayed with 'Payers  Account Number must not be blank'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "10"), "Payers Account Number must not be blank");
-		
+
 	}
-	
+
 	@Test
 	public void TC_02_Fund_Transfer_Payers_Account_No_Must_Be_Numeric() {
-		
+
 		log.info("Fund_Transfer_Payers_Account_No must be numeric - Step 01:  Input numeric to 'Payers  account no' textbox with value: 'anhtran123'");
 		customerPage.sendKeyToTextboxByName(driver, "anhtran123", "payersaccount");
-		
+
 		log.info("Fund_Transfer_Payers_Account_No must be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "10"), "Characters are not allowed");
 	}
-	
+
 	@Test
 	public void TC_03_Fund_Transfer_Payers_Account_No_Can_Not_Have_Special_Characters() {
-		
+
 		log.info("Fund_Transfer_Payers_Account_No cannot have special charater - Step 01:  Input to 'Payers  account no' textbox with value: '123@#'");
 		customerPage.sendKeyToTextboxByName(driver, "123@#", "payersaccount");
-		
+
 		log.info("Fund_Transfer_Payers_Account_No cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "10"), "Special characters are not allowed");
 	}
+
 	@Test
 	public void TC_04_Fund_Transfer_Payees_Account_No_Canot_Be_Empty() {
-		
+
 		log.info("Fund_Transfer_Payees_Account_No cannot be empty - Step 01: Input blank value to 'Payees  account no' textbox");
 		customerPage.sendKeyToTextboxByName(driver, "", "payeeaccount");
-		
+
 		log.info("Fund_Transfer_Payees_Account_No cannot be empty - Step 02: Press key TAB to 'Payees  account no' textbox");
 		customerPage.sendKeyboardToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_NAME, Keys.TAB, "payeeaccount");
-		
+
 		log.info("Fund_Transfer_Payees_Account_No cannot be empty - Step 03: Verify warning message is displayed with 'Payees  Account Number must not be blank'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "11"), "Payees Account Number must not be blank");
-		
+
 	}
-	
+
 	@Test
 	public void TC_05_Fund_Transfer_Payees_Account_No_Must_Be_Numeric() {
-		
+
 		log.info("Fund_Transfer_Payees_Account_No must be numeric - Step 01:  Input numeric to 'Payees  account no' textbox with value: 'anhtran123'");
 		customerPage.sendKeyToTextboxByName(driver, "anhtran123", "payeeaccount");
-		
+
 		log.info("Fund_Transfer_Payees_Account_No must be numeric - Step 02: Verify warning message is displayed with 'Characters are not allowed'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "11"), "Characters are not allowed");
 	}
-	
+
 	@Test
 	public void TC_06_Fund_Transfer_Payees_Account_No_Can_Not_Have_Special_Characters() {
-		
+
 		log.info("Fund_Transfer_Payees_Account_No cannot have special charater - Step 01:  Input to 'Payees  account no' textbox with value: '123@#'");
 		customerPage.sendKeyToTextboxByName(driver, "123@#", "payeeaccount");
-		
+
 		log.info("Fund_Transfer_Payees_Account_No cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "11"), "Special characters are not allowed");
 	}
+
 	@Test
 	public void TC_07_Fund_Transfer_Amount_Canot_Be_Empty() {
 
@@ -251,7 +252,6 @@ public class Customer_09_Fund_Transfer extends BaseTest {
 		log.info("Fund_Transfer_Amount cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "1"), "Special characters are not allowed");
 	}
-	
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {

@@ -15,7 +15,7 @@
     <classes>
 <!--       <class name="bankguru.customer.Customer_01_New_Customer"/> -->
 <!--       <class name="bankguru.customer.Customer_02_Edit_Customer"/> -->
-      <class name="bankguru.customer.Customer_10_Change_Password"/>
+      <class name="bankguru.customer.Customer_11_Payment"/>
     </classes>
   </test> 
   

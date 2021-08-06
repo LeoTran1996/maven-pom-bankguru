@@ -26,6 +26,7 @@ public class TestNGAppender extends AppenderSkeleton {
 
 	/**
 	 * Insert log message into ReportNG
+	 * 
 	 * @param logMessage
 	 */
 	public void info(String logMessage) {

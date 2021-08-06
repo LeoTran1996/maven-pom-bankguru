@@ -2592,3 +2592,1517 @@ Session ID: feac4faf-bee5-494c-a468-9a0126b80d23
 [INFO ] [2021-08-05 22:41:10,694] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
 [INFO ] [2021-08-05 22:41:10,736] OS name = windows 10
 [INFO ] [2021-08-05 22:41:12,267] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 08:47:09,389] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 08:47:17,544] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 08:47:17,550] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 08:47:19,334] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 08:47:19,520] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 08:47:20,474] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 08:47:20,528] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 08:47:20,582] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 08:47:21,796] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 08:47:21,951] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 08:47:22,071] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 08:47:23,737] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 08:47:23,816] Pre-condition - Step 13: Click to 'Change Password' label
+[INFO ] [2021-08-06 08:47:24,290] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
+[INFO ] [2021-08-06 08:47:24,464] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
+[INFO ] [2021-08-06 08:47:24,603] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
+[INFO ] [2021-08-06 08:47:24,808] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-06 08:47:25,041] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
+[INFO ] [2021-08-06 08:47:25,166] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
+[INFO ] [2021-08-06 08:47:25,347] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-06 08:47:25,432] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
+[INFO ] [2021-08-06 08:47:25,517] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
+[INFO ] [2021-08-06 08:47:25,561] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
+[INFO ] [2021-08-06 08:47:25,668] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
+[INFO ] [2021-08-06 08:47:25,712] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
+[INFO ] [2021-08-06 08:47:25,828] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
+[INFO ] [2021-08-06 08:47:25,869] OS name = windows 10
+[INFO ] [2021-08-06 08:47:27,075] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 08:48:21,155] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 08:48:27,395] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 08:48:27,405] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 08:48:29,497] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 08:48:29,685] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 08:48:30,583] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 08:48:30,642] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 08:48:30,695] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 08:48:32,553] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 08:48:32,722] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 08:48:32,845] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 08:48:34,444] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 08:48:34,519] Pre-condition - Step 13: Click to 'Change Password' label
+[INFO ] [2021-08-06 08:48:34,959] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
+[INFO ] [2021-08-06 08:48:35,147] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
+[INFO ] [2021-08-06 08:48:35,266] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
+[INFO ] [2021-08-06 08:48:35,464] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-06 08:48:35,676] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
+[INFO ] [2021-08-06 08:48:35,794] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
+[INFO ] [2021-08-06 08:48:35,945] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-06 08:48:36,041] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
+[INFO ] [2021-08-06 08:48:36,133] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
+[INFO ] [2021-08-06 08:48:36,185] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
+[INFO ] [2021-08-06 08:48:36,301] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
+[INFO ] [2021-08-06 08:48:36,349] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
+[INFO ] [2021-08-06 08:48:36,467] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
+[INFO ] [2021-08-06 08:48:36,510] Change_Password_Confirm_Password must be matched - Step 01:  Input to 'New Password' textbox with value: 'anhtran'
+[INFO ] [2021-08-06 08:48:36,621] Change_Password_Confirm_Password must be matched - Step 02:  Input to 'Confirm Password' textbox with value: 'anhtran@456'
+[INFO ] [2021-08-06 08:48:36,772] Change_Password_Confirm_Password must be matched - Step 03: Verify warning message is displayed with 'Passwords do not Match'
+[INFO ] [2021-08-06 08:48:36,826] Change_Password with matched password - Step 01: Input to 'Old' textbox with valid old password
+[INFO ] [2021-08-06 08:48:36,927] Change_Password with matched password - Step 02: Input to 'New Password' textbox with valid new password: 'anhtran@123'
+[INFO ] [2021-08-06 08:48:37,036] Change_Password with matched password - Step 03: Input to 'Confirm Password' textbox with valid new confirm password: 'anhtran@123'
+[INFO ] [2021-08-06 08:48:37,152] Change_Password with matched password - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 08:48:37,577] Change_Password with matched password - Step 05: Verify alertext 'Password is Changed' is displayed and accept to alert
+[INFO ] [2021-08-06 08:48:37,620] Change_Password with matched password - Step 06: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 08:48:38,882] Change_Password with matched password - Step 07: Enter to 'Password' textbox
+[INFO ] [2021-08-06 08:48:38,962] OS name = windows 10
+[INFO ] [2021-08-06 08:48:40,947] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 08:50:44,473] OS name = windows 10
+[INFO ] [2021-08-06 08:50:44,507] Cannot invoke "Object.toString()" because "driver" is null
+[INFO ] [2021-08-06 08:51:00,969] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 08:51:07,173] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 08:51:07,181] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 08:51:09,251] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 08:51:09,545] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 08:51:10,477] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 08:51:10,530] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 08:51:10,580] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 08:51:11,758] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 08:51:11,904] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 08:51:12,029] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 08:51:13,579] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 08:51:13,660] Pre-condition - Step 13: Click to 'Change Password' label
+[INFO ] [2021-08-06 08:51:14,135] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
+[INFO ] [2021-08-06 08:51:14,324] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
+[INFO ] [2021-08-06 08:51:14,478] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
+[INFO ] [2021-08-06 08:51:14,711] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-06 08:51:14,922] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
+[INFO ] [2021-08-06 08:51:15,098] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
+[INFO ] [2021-08-06 08:51:15,252] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+[INFO ] [2021-08-06 08:51:15,343] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
+[INFO ] [2021-08-06 08:51:15,434] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
+[INFO ] [2021-08-06 08:51:15,482] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
+[INFO ] [2021-08-06 08:51:15,587] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
+[INFO ] [2021-08-06 08:51:15,631] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
+[INFO ] [2021-08-06 08:51:15,744] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
+[INFO ] [2021-08-06 08:51:15,785] Change_Password_Confirm_Password must be matched - Step 01:  Input to 'New Password' textbox with value: 'anhtran'
+[INFO ] [2021-08-06 08:51:15,905] Change_Password_Confirm_Password must be matched - Step 02:  Input to 'Confirm Password' textbox with value: 'anhtran@456'
+[INFO ] [2021-08-06 08:51:16,055] Change_Password_Confirm_Password must be matched - Step 03: Verify warning message is displayed with 'Passwords do not Match'
+[INFO ] [2021-08-06 08:51:16,108] Change_Password with matched password - Step 01: Input to 'Old' textbox with valid old password
+[INFO ] [2021-08-06 08:51:16,211] Change_Password with matched password - Step 02: Input to 'New Password' textbox with valid new password: 'anhtran@123'
+[INFO ] [2021-08-06 08:51:16,323] Change_Password with matched password - Step 03: Input to 'Confirm Password' textbox with valid new confirm password: 'anhtran@123'
+[INFO ] [2021-08-06 08:51:16,424] Change_Password with matched password - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 08:51:16,862] Change_Password with matched password - Step 05: Verify alertext 'Password is Changed' is displayed and accept to alert
+[INFO ] [2021-08-06 08:51:16,875] Change_Password with matched password - Step 06: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 08:51:18,156] Change_Password with matched password - Step 07: Enter to 'Password' textbox
+[INFO ] [2021-08-06 08:51:18,275] Change_Password with matched password - Step 08: Click to 'Login' button
+[INFO ] [2021-08-06 08:51:19,361] Change_Password with matched password - Step 09: Verify login success message is displayed
+[INFO ] [2021-08-06 08:51:19,424] OS name = windows 10
+[INFO ] [2021-08-06 08:51:20,696] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 09:44:35,480] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 09:44:42,174] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 09:44:42,183] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 09:44:43,571] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 09:44:43,752] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 09:44:44,720] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 09:44:44,781] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 09:44:44,833] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 09:44:45,735] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 09:44:45,900] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 09:44:46,046] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 09:44:47,589] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 09:44:47,791] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 09:44:48,298] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueElwood Kuhlman
+[INFO ] [2021-08-06 09:44:48,450] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 09:44:48,572] Create_New_Customer - Step 04: Input to 'Address' textbox with value5461 Gisela Circles
+[INFO ] [2021-08-06 09:44:48,727] Create_New_Customer - Step 06: Input to 'City' textbox with valueRussellland
+[INFO ] [2021-08-06 09:44:48,857] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 09:44:48,986] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 09:44:49,118] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 09:44:49,259] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valueadaline.kuhlman@gmail.com
+[INFO ] [2021-08-06 09:44:49,408] Create_New_Customer - Step 11: Input to 'Password' textbox with valueu0rk9rr
+[INFO ] [2021-08-06 09:44:49,523] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 09:44:50,614] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 09:44:50,672]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 09:44:50,672] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 09:44:50,717] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 09:44:50,849] OS name = windows 10
+[INFO ] [2021-08-06 09:44:52,143] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 09:49:24,275] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 09:49:30,516] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 09:49:30,522] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 09:49:32,178] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 09:49:32,436] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 09:49:33,354] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 09:49:33,408] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 09:49:33,461] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 09:49:34,415] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 09:49:34,561] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 09:49:34,685] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 09:49:36,020] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 09:49:36,275] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 09:49:36,794] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueDominic Tromp
+[INFO ] [2021-08-06 09:49:36,944] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 09:49:37,068] Create_New_Customer - Step 04: Input to 'Address' textbox with value144 Leffler Unions
+[INFO ] [2021-08-06 09:49:37,218] Create_New_Customer - Step 06: Input to 'City' textbox with valueLangoshville
+[INFO ] [2021-08-06 09:49:37,353] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 09:49:37,476] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 09:49:37,603] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 09:49:37,741] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuedarwin.white@yahoo.com
+[INFO ] [2021-08-06 09:49:37,888] Create_New_Customer - Step 11: Input to 'Password' textbox with valueqdjhrdx
+[INFO ] [2021-08-06 09:49:38,003] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 09:49:39,144] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 09:49:39,206]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 09:49:39,206] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 09:49:39,253] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 09:49:39,391] OS name = windows 10
+[INFO ] [2021-08-06 09:49:40,588] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 09:50:38,475] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 09:50:44,579] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 09:50:44,584] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 09:50:46,056] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 09:50:46,229] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 09:50:47,117] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 09:50:47,174] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 09:50:47,225] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 09:50:48,462] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 09:50:48,616] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 09:50:48,740] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 09:50:50,344] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 09:50:50,561] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 09:50:51,039] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueBrock White
+[INFO ] [2021-08-06 09:50:51,193] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 09:50:51,336] Create_New_Customer - Step 04: Input to 'Address' textbox with value3262 Metz Field
+[INFO ] [2021-08-06 09:50:51,507] Create_New_Customer - Step 06: Input to 'City' textbox with valueEmmerichbury
+[INFO ] [2021-08-06 09:50:51,638] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 09:50:51,761] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 09:50:51,892] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 09:50:52,027] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuelisabeth.beer@yahoo.com
+[INFO ] [2021-08-06 09:50:52,180] Create_New_Customer - Step 11: Input to 'Password' textbox with valueqx3q0tp
+[INFO ] [2021-08-06 09:50:52,297] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 09:50:53,431] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 09:50:53,490]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 09:50:53,490] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 09:50:53,535] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 09:50:53,682] OS name = windows 10
+[INFO ] [2021-08-06 09:50:54,924] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 09:54:19,470] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 09:54:25,705] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 09:54:25,711] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 09:54:27,362] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 09:54:27,544] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 09:54:28,407] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 09:54:28,464] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 09:54:28,512] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 09:54:30,175] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 09:54:30,320] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 09:54:30,446] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 09:54:31,777] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 09:54:32,042] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 09:54:32,561] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueTheron Halvorson
+[INFO ] [2021-08-06 09:54:32,721] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 09:54:32,846] Create_New_Customer - Step 04: Input to 'Address' textbox with value30390 Boyce Harbor
+[INFO ] [2021-08-06 09:54:32,997] Create_New_Customer - Step 06: Input to 'City' textbox with valueNorth Maximaland
+[INFO ] [2021-08-06 09:54:33,136] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 09:54:33,263] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 09:54:33,394] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 09:54:33,526] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valueslyvia.kuhlman@gmail.com
+[INFO ] [2021-08-06 09:54:33,676] Create_New_Customer - Step 11: Input to 'Password' textbox with valueqnfaexc
+[INFO ] [2021-08-06 09:54:33,794] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 09:54:34,932] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 09:54:34,995]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 09:54:34,996] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 09:54:35,065] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 09:54:35,538] OS name = windows 10
+[INFO ] [2021-08-06 09:54:36,751] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 10:22:51,653] OS name = windows 10
+[INFO ] [2021-08-06 10:22:51,654] Cannot invoke "Object.toString()" because "driver" is null
+[INFO ] [2021-08-06 10:23:07,737] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 10:23:14,712] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 10:23:14,718] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 10:23:16,591] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 10:23:16,797] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 10:23:17,781] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 10:23:17,838] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 10:23:17,890] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 10:23:19,234] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 10:23:19,398] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 10:23:19,521] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 10:23:21,169] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 10:23:21,443] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 10:23:22,047] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueLilly Krajcik
+[INFO ] [2021-08-06 10:23:22,196] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 10:23:22,321] Create_New_Customer - Step 04: Input to 'Address' textbox with value312 Schroeder Junction
+[INFO ] [2021-08-06 10:23:22,482] Create_New_Customer - Step 06: Input to 'City' textbox with valueEast Elza
+[INFO ] [2021-08-06 10:23:22,606] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 10:23:22,735] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 10:23:22,865] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 10:23:23,000] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuestephane.tillman@yahoo.com
+[INFO ] [2021-08-06 10:23:23,182] Create_New_Customer - Step 11: Input to 'Password' textbox with valuergkz528
+[INFO ] [2021-08-06 10:23:23,316] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 10:23:24,499] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 10:23:24,583]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 10:23:24,583] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 10:23:24,627] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 10:23:25,102] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 10:23:25,956] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 10:23:26,082] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 10:23:26,858] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 10:23:27,640] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 10:23:28,732] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 10:23:28,793]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 10:23:28,793] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 10:23:29,061] OS name = windows 10
+[INFO ] [2021-08-06 10:23:30,407] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 11:01:03,727] OS name = windows 10
+[INFO ] [2021-08-06 11:01:03,728] Cannot invoke "Object.toString()" because "driver" is null
+[INFO ] [2021-08-06 11:02:22,264] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 11:02:30,505] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 11:02:30,512] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 11:02:32,188] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 11:02:32,396] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:02:33,301] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 11:02:33,356] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 11:02:33,405] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 11:02:34,691] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 11:02:34,827] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 11:02:34,953] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 11:02:36,526] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 11:02:36,728] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 11:02:37,344] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueLatrice Marvin
+[INFO ] [2021-08-06 11:02:37,486] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 11:02:37,609] Create_New_Customer - Step 04: Input to 'Address' textbox with value558 Chaya Crescent
+[INFO ] [2021-08-06 11:02:37,759] Create_New_Customer - Step 06: Input to 'City' textbox with valueEast Olinhaven
+[INFO ] [2021-08-06 11:02:37,892] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 11:02:38,017] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 11:02:38,146] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 11:02:38,280] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuesunday.schuster@hotmail.com
+[INFO ] [2021-08-06 11:02:38,437] Create_New_Customer - Step 11: Input to 'Password' textbox with valuebg85da
+[INFO ] [2021-08-06 11:02:38,550] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 11:02:39,673] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 11:02:39,731]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:02:39,732] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 11:02:39,778] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 11:02:40,240] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 11:02:40,983] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 11:02:41,108] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 11:02:41,793] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 11:02:42,583] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:02:43,634] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 11:02:43,691]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:02:43,691] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 11:02:43,960] OS name = windows 10
+[INFO ] [2021-08-06 11:02:45,154] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 11:03:05,766] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 11:03:11,916] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 11:03:11,922] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 11:03:13,604] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 11:03:13,799] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:03:14,824] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 11:03:14,877] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 11:03:14,927] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 11:03:16,176] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 11:03:16,326] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 11:03:16,455] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 11:03:18,105] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 11:03:18,320] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 11:03:18,929] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueAmi Johns
+[INFO ] [2021-08-06 11:03:19,072] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 11:03:19,197] Create_New_Customer - Step 04: Input to 'Address' textbox with value374 Son Road
+[INFO ] [2021-08-06 11:03:19,336] Create_New_Customer - Step 06: Input to 'City' textbox with valueVaughnborough
+[INFO ] [2021-08-06 11:03:19,473] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 11:03:19,601] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 11:03:19,737] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 11:03:19,873] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuebud.ondricka@hotmail.com
+[INFO ] [2021-08-06 11:03:20,036] Create_New_Customer - Step 11: Input to 'Password' textbox with value4u2ctj9
+[INFO ] [2021-08-06 11:03:20,158] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 11:03:21,255] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 11:03:21,318]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:03:21,318] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 11:03:21,368] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 11:03:21,851] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 11:03:22,591] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 11:03:22,717] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 11:03:23,494] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 11:03:24,305] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:03:25,395] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 11:03:25,457]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:03:25,457] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 11:03:25,739] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 11:03:26,500] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 11:03:26,582] OS name = windows 10
+[INFO ] [2021-08-06 11:03:29,041] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 11:06:55,844] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 11:07:01,881] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 11:07:01,888] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 11:07:03,550] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 11:07:03,751] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:07:04,659] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 11:07:04,721] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 11:07:04,771] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 11:07:06,364] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 11:07:06,534] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 11:07:06,659] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 11:07:08,042] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 11:07:08,240] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 11:07:08,904] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueMonroe Sauer
+[INFO ] [2021-08-06 11:07:09,061] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 11:07:09,194] Create_New_Customer - Step 04: Input to 'Address' textbox with value104 Weimann Mall
+[INFO ] [2021-08-06 11:07:09,342] Create_New_Customer - Step 06: Input to 'City' textbox with valueSouth Earleanport
+[INFO ] [2021-08-06 11:07:09,480] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 11:07:09,601] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 11:07:09,737] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 11:07:09,874] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valueemanuel.kub@gmail.com
+[INFO ] [2021-08-06 11:07:10,022] Create_New_Customer - Step 11: Input to 'Password' textbox with value8f8cx4h
+[INFO ] [2021-08-06 11:07:10,141] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 11:07:11,305] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 11:07:11,361]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:07:11,361] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 11:07:11,418] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 11:07:11,952] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 11:07:12,803] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 11:07:12,939] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 11:07:13,735] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 11:07:14,532] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:07:15,694] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 11:07:15,758]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:07:15,758] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 11:07:16,024] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 11:07:16,809] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 11:07:16,893] OS name = windows 10
+[INFO ] [2021-08-06 11:07:18,061] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 11:10:58,945] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 11:11:05,679] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 11:11:05,686] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 11:11:07,447] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 11:11:07,619] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:11:08,517] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 11:11:08,572] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 11:11:08,622] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 11:11:10,242] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 11:11:10,426] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 11:11:10,560] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 11:11:11,893] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 11:11:12,092] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 11:11:12,663] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueAssunta Ratke
+[INFO ] [2021-08-06 11:11:12,833] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 11:11:12,974] Create_New_Customer - Step 04: Input to 'Address' textbox with value539 Considine Lights
+[INFO ] [2021-08-06 11:11:13,137] Create_New_Customer - Step 06: Input to 'City' textbox with valueSouth Kai
+[INFO ] [2021-08-06 11:11:13,264] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 11:11:13,395] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 11:11:13,522] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 11:11:13,658] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuerachelle.lesch@gmail.com
+[INFO ] [2021-08-06 11:11:13,807] Create_New_Customer - Step 11: Input to 'Password' textbox with valuejxwaxhf
+[INFO ] [2021-08-06 11:11:13,922] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 11:11:15,103] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 11:11:15,159]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:11:15,159] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 11:11:15,205] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 11:11:15,716] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 11:11:16,588] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 11:11:16,715] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 11:11:17,497] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 11:11:18,284] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:11:19,421] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 11:11:19,480]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:11:19,480] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 11:11:19,746] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 11:11:25,499] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 11:11:25,593] OS name = windows 10
+[INFO ] [2021-08-06 11:11:27,147] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 11:12:07,488] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 11:12:13,712] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 11:12:13,720] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 11:12:15,092] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 11:12:15,317] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:12:16,278] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 11:12:16,336] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 11:12:16,384] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 11:12:17,530] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 11:12:17,677] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 11:12:17,814] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 11:12:19,105] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 11:12:19,309] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 11:12:19,864] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueLauryn Rutherford
+[INFO ] [2021-08-06 11:12:20,020] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 11:12:20,145] Create_New_Customer - Step 04: Input to 'Address' textbox with value846 Larson Lake
+[INFO ] [2021-08-06 11:12:20,290] Create_New_Customer - Step 06: Input to 'City' textbox with valueDareberg
+[INFO ] [2021-08-06 11:12:20,419] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 11:12:20,544] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 11:12:20,674] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 11:12:20,811] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuebennie.kuhn@yahoo.com
+[INFO ] [2021-08-06 11:12:20,956] Create_New_Customer - Step 11: Input to 'Password' textbox with valuez7eic6
+[INFO ] [2021-08-06 11:12:21,072] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 11:12:22,219] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 11:12:22,282]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:12:22,283] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 11:12:22,330] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 11:12:22,799] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 11:12:23,573] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 11:12:23,706] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 11:12:24,441] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 11:12:25,242] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 11:12:26,340] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 11:12:26,407]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:12:26,407] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 11:12:26,751] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 11:12:27,274] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 11:12:27,396] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 11:12:27,520] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 11:12:28,677] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 11:12:28,735]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 11:12:28,735] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 11:12:28,783] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 11:12:28,844] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 11:12:34,570] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 11:12:34,698] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 11:12:34,821] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 11:12:34,942] Transfer_Money to Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 11:12:35,757] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 11:12:35,818] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 11:12:35,866] OS name = windows 10
+[INFO ] [2021-08-06 11:12:37,301] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 13:51:11,014] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 13:51:26,610] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 13:51:26,627] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 13:51:29,269] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 13:51:29,687] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 13:51:30,514] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 13:51:30,588] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 13:51:30,641] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 13:51:32,323] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 13:51:32,459] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 13:51:32,670] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 13:51:34,255] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 13:51:34,720] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 13:51:35,406] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueAngelica Purdy
+[INFO ] [2021-08-06 13:51:35,588] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 13:51:35,719] Create_New_Customer - Step 04: Input to 'Address' textbox with value28234 Hortense Squares
+[INFO ] [2021-08-06 13:51:35,884] Create_New_Customer - Step 06: Input to 'City' textbox with valueSouth Darryl
+[INFO ] [2021-08-06 13:51:36,021] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 13:51:36,154] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 13:51:36,295] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 13:51:36,447] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuecordell.mcglynn@yahoo.com
+[INFO ] [2021-08-06 13:51:36,604] Create_New_Customer - Step 11: Input to 'Password' textbox with valueyad7b7
+[INFO ] [2021-08-06 13:51:36,728] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 13:51:37,839] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 13:51:37,907]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 13:51:37,907] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 13:51:37,955] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 13:51:38,530] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 13:51:39,323] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 13:51:39,466] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 13:51:40,257] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 13:51:41,106] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 13:51:42,239] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 13:51:42,306]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 13:51:42,306] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 13:51:42,594] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 13:51:43,087] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 13:51:43,208] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 13:51:43,325] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 13:51:44,405] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 13:51:44,466]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 13:51:44,466] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 13:51:44,513] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 13:51:44,564] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 13:51:45,605] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 13:51:45,732] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 13:51:46,750] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 13:51:46,937] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 13:51:48,034] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 13:51:48,092]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 13:51:48,092] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 13:51:48,144] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 13:51:48,911] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 13:51:49,034] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 13:51:49,150] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 13:51:49,263] Transfer_Money to Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 13:51:50,037] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 13:51:50,097] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 13:51:50,153] OS name = windows 10
+[INFO ] [2021-08-06 13:51:51,489] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 14:02:44,632] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 14:02:51,935] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 14:02:51,963] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 14:02:53,626] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 14:02:53,796] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:02:54,717] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 14:02:54,773] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 14:02:54,820] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 14:02:56,187] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 14:02:56,346] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 14:02:56,470] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 14:02:57,781] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 14:02:58,011] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 14:02:58,618] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueSelma Gorczany
+[INFO ] [2021-08-06 14:02:58,771] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 14:02:58,897] Create_New_Customer - Step 04: Input to 'Address' textbox with value42244 Russel Grove
+[INFO ] [2021-08-06 14:02:59,053] Create_New_Customer - Step 06: Input to 'City' textbox with valueWest Ronny
+[INFO ] [2021-08-06 14:02:59,194] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 14:02:59,322] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 14:02:59,454] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 14:02:59,595] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuefran.kuvalis@gmail.com
+[INFO ] [2021-08-06 14:02:59,746] Create_New_Customer - Step 11: Input to 'Password' textbox with value8ugjzn
+[INFO ] [2021-08-06 14:02:59,862] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 14:03:01,003] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 14:03:01,064]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:03:01,064] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 14:03:01,110] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 14:03:01,584] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 14:03:02,375] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 14:03:02,509] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 14:03:03,287] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 14:03:04,111] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:03:05,205] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 14:03:05,267]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:03:05,267] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 14:03:05,543] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:03:06,029] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:03:06,156] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:03:06,281] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:03:07,398] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:03:07,458]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:03:07,458] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 14:03:07,504] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 14:03:07,557] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 14:03:08,397] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 14:03:08,529] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 14:03:09,575] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 14:03:09,675] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:03:10,812] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 14:03:10,868]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:03:10,868] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 14:03:10,922] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 14:03:11,653] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:03:11,779] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:03:11,901] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:03:12,014] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:03:13,364] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 14:03:13,421] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:03:13,480] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 14:03:14,252] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 14:03:14,311]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:03:14,311] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:03:14,423] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:03:14,533] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:03:14,652] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 14:03:15,755] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 14:03:15,809] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:03:15,857] OS name = windows 10
+[INFO ] [2021-08-06 14:03:17,122] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 14:03:53,498] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 14:03:59,457] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 14:03:59,465] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 14:04:01,138] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 14:04:01,318] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:02,195] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 14:04:02,248] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 14:04:02,296] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 14:04:04,017] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 14:04:04,165] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 14:04:04,304] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 14:04:05,896] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 14:04:06,103] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 14:04:06,632] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueIlene Christiansen
+[INFO ] [2021-08-06 14:04:06,793] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 14:04:06,915] Create_New_Customer - Step 04: Input to 'Address' textbox with value03596 Yundt Rapids
+[INFO ] [2021-08-06 14:04:07,073] Create_New_Customer - Step 06: Input to 'City' textbox with valueLebsackmouth
+[INFO ] [2021-08-06 14:04:07,202] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 14:04:07,331] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 14:04:07,462] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 14:04:07,596] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuemerri.vandervort@hotmail.com
+[INFO ] [2021-08-06 14:04:07,756] Create_New_Customer - Step 11: Input to 'Password' textbox with valuek8gtqs8
+[INFO ] [2021-08-06 14:04:07,873] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:08,957] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 14:04:09,018]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:04:09,018] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 14:04:09,065] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 14:04:09,545] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 14:04:10,421] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 14:04:10,563] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 14:04:11,370] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 14:04:12,183] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:13,317] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 14:04:13,379]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:04:13,379] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 14:04:13,650] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:04:14,149] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:04:14,268] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:04:14,387] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:18,652] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:04:18,716]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:04:18,717] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 14:04:18,762] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 14:04:18,814] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 14:04:19,553] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 14:04:19,684] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:20,795] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 14:04:20,890] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:22,034] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 14:04:22,090]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:04:22,090] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 14:04:22,141] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 14:04:22,912] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:04:23,037] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:04:23,149] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:04:23,267] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:24,429] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 14:04:24,483] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:04:24,533] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 14:04:25,329] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 14:04:25,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:04:25,387] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:04:25,495] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:04:25,603] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:04:25,720] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 14:04:26,798] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 14:04:26,852] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:04:26,907] OS name = windows 10
+[INFO ] [2021-08-06 14:04:28,035] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 14:28:10,763] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 14:28:17,421] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 14:28:17,426] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 14:28:19,331] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 14:28:19,504] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:20,412] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 14:28:20,470] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 14:28:20,521] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 14:28:22,075] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 14:28:22,222] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 14:28:22,350] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 14:28:23,934] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 14:28:24,127] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 14:28:25,072] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueMindi Bosco
+[INFO ] [2021-08-06 14:28:25,221] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 14:28:25,347] Create_New_Customer - Step 04: Input to 'Address' textbox with value665 Tisa Circles
+[INFO ] [2021-08-06 14:28:25,498] Create_New_Customer - Step 06: Input to 'City' textbox with valueNorth Ron
+[INFO ] [2021-08-06 14:28:25,628] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 14:28:25,752] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 14:28:25,885] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 14:28:26,012] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuerebbecca.rodriguez@hotmail.com
+[INFO ] [2021-08-06 14:28:26,175] Create_New_Customer - Step 11: Input to 'Password' textbox with valuenaynrwk
+[INFO ] [2021-08-06 14:28:26,293] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:27,683] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 14:28:27,741]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:28:27,741] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 14:28:27,788] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 14:28:28,281] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 14:28:29,064] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 14:28:29,204] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 14:28:29,994] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 14:28:30,794] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:31,917] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 14:28:31,976]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:28:31,976] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 14:28:32,256] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:28:32,774] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:28:32,897] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:28:33,022] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:34,174] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:28:34,238]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:28:34,238] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 14:28:34,284] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 14:28:34,339] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 14:28:35,376] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 14:28:35,508] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:36,582] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 14:28:36,677] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:37,793] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 14:28:37,850]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:28:37,850] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 14:28:37,903] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 14:28:38,674] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:28:38,797] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:28:38,916] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:28:39,033] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:40,139] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 14:28:40,196] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:28:40,252] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 14:28:41,023] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 14:28:41,084]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:28:41,084] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:28:41,197] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:28:41,304] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:28:41,420] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:42,504] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 14:28:42,563] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:28:42,611] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:28:42,750] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:28:42,867] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:28:43,002] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:28:44,365] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:28:44,421]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:28:44,421] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 14:28:44,465] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 14:28:45,520] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 14:28:45,586]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:28:45,586] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 14:28:45,702] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 14:29:15,750] OS name = windows 10
+[INFO ] [2021-08-06 14:29:16,913] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 14:30:32,676] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 14:30:39,266] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 14:30:39,272] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 14:30:40,938] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 14:30:41,116] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:30:42,075] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 14:30:42,131] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 14:30:42,181] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 14:30:43,770] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 14:30:43,916] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 14:30:44,053] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 14:30:45,395] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 14:30:45,589] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 14:30:46,176] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueJonathon Stoltenberg
+[INFO ] [2021-08-06 14:30:46,333] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 14:30:46,460] Create_New_Customer - Step 04: Input to 'Address' textbox with value7917 Booker Ports
+[INFO ] [2021-08-06 14:30:46,612] Create_New_Customer - Step 06: Input to 'City' textbox with valueNew Gene
+[INFO ] [2021-08-06 14:30:46,744] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 14:30:46,879] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 14:30:47,009] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 14:30:47,151] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuedenny.dubuque@gmail.com
+[INFO ] [2021-08-06 14:30:47,301] Create_New_Customer - Step 11: Input to 'Password' textbox with valuepjs35e5
+[INFO ] [2021-08-06 14:30:47,418] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 14:30:48,517] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 14:30:48,582]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:30:48,582] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 14:30:48,627] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 14:30:49,103] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 14:30:49,916] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 14:30:50,045] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 14:30:50,789] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 14:30:51,593] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:30:52,664] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 14:30:52,724]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:30:52,724] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 14:30:53,003] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:30:53,480] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:30:53,604] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:30:53,727] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:30:54,863] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:30:54,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:30:54,927] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 14:30:54,976] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 14:30:55,026] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 14:30:55,858] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 14:30:55,990] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 14:30:57,068] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 14:30:57,165] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:30:58,290] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 14:30:58,346]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:30:58,346] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 14:30:58,397] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 14:30:59,111] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:30:59,236] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:30:59,353] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:30:59,473] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:31:00,570] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 14:31:00,624] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:31:00,672] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 14:31:01,436] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 14:31:01,495]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:31:01,495] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:31:01,608] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:31:01,726] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:31:01,846] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 14:31:02,962] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 14:31:03,014] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:31:03,060] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:31:03,196] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:31:03,316] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:31:03,444] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:31:04,554] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:31:04,611]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:31:04,611] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 14:31:04,660] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 14:31:05,402] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 14:31:05,462]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:31:05,462] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 14:31:05,580] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 14:31:05,699] Transfer_Money_To_Another_Account - Step 11: Input valid value to 'Amount'
+[INFO ] [2021-08-06 14:31:05,814] Transfer_Money_To_Another_Account - Step 12: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:31:05,936] Transfer_Money_To_Another_Account - Step 13: Click to 'Submit' button
+[INFO ] [2021-08-06 14:31:07,042] Transfer_Money_To_Another_Account - Step 14: Verify 'Fund Transfer Details' heading is displayed
+[INFO ] [2021-08-06 14:31:07,100]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:31:07,101] Transfer_Money_To_Another_Account - Step 15: Verify 'Amount' is correct
+[INFO ] [2021-08-06 14:31:37,142] OS name = windows 10
+[INFO ] [2021-08-06 14:31:38,391] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 14:33:26,774] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 14:33:32,900] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 14:33:32,907] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 14:33:34,672] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 14:33:34,888] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:35,865] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 14:33:35,919] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 14:33:35,971] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 14:33:37,216] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 14:33:37,385] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 14:33:37,506] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 14:33:39,116] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 14:33:39,329] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 14:33:40,040] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueTheo Daniel
+[INFO ] [2021-08-06 14:33:40,184] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 14:33:40,308] Create_New_Customer - Step 04: Input to 'Address' textbox with value6626 Pollich Pike
+[INFO ] [2021-08-06 14:33:40,462] Create_New_Customer - Step 06: Input to 'City' textbox with valueEast Virgil
+[INFO ] [2021-08-06 14:33:40,596] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 14:33:40,729] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 14:33:40,858] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 14:33:40,992] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuehaydee.howell@yahoo.com
+[INFO ] [2021-08-06 14:33:41,142] Create_New_Customer - Step 11: Input to 'Password' textbox with value4mno4wr
+[INFO ] [2021-08-06 14:33:41,258] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:42,488] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 14:33:42,546]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:33:42,546] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 14:33:42,599] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 14:33:43,073] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 14:33:43,835] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 14:33:43,965] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 14:33:44,744] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 14:33:45,563] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:46,694] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 14:33:46,753]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:33:46,753] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 14:33:47,027] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:33:47,510] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:33:47,634] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:33:47,757] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:48,871] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:33:48,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:33:48,927] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 14:33:48,973] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 14:33:49,023] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 14:33:49,758] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 14:33:49,886] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:50,946] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 14:33:51,053] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:52,200] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 14:33:52,255]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:33:52,255] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 14:33:52,306] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 14:33:53,094] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:33:53,222] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:33:53,335] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:33:53,453] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:54,586] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 14:33:54,642] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:33:54,691] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 14:33:55,455] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 14:33:55,513]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:33:55,514] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:33:55,627] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:33:55,739] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:33:55,858] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:56,932] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 14:33:56,984] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:33:57,030] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:33:57,161] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:33:57,289] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:33:57,405] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:33:58,519] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:33:58,571]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:33:58,571] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 14:33:58,611] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 14:33:59,369] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 14:33:59,425]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:33:59,425] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 14:33:59,541] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 14:33:59,655] Transfer_Money_To_Another_Account - Step 11: Input valid value to 'Amount'
+[INFO ] [2021-08-06 14:33:59,768] Transfer_Money_To_Another_Account - Step 12: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:33:59,886] Transfer_Money_To_Another_Account - Step 13: Click to 'Submit' button
+[INFO ] [2021-08-06 14:34:01,051] Transfer_Money_To_Another_Account - Step 14: Verify 'Fund Transfer Details' heading is displayed
+[INFO ] [2021-08-06 14:34:01,106]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:34:01,106] Transfer_Money_To_Another_Account - Step 15: Verify 'Amount' is correct
+[INFO ] [2021-08-06 14:34:01,160] OS name = windows 10
+[INFO ] [2021-08-06 14:34:02,359] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 14:46:07,331] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 14:46:13,258] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 14:46:13,266] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 14:46:14,950] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 14:46:15,157] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:16,262] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 14:46:16,318] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 14:46:16,367] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 14:46:17,582] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 14:46:17,734] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 14:46:17,876] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 14:46:19,487] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 14:46:19,699] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 14:46:20,196] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueDaysi Toy
+[INFO ] [2021-08-06 14:46:20,339] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 14:46:20,463] Create_New_Customer - Step 04: Input to 'Address' textbox with value8548 Rashad Lane
+[INFO ] [2021-08-06 14:46:20,619] Create_New_Customer - Step 06: Input to 'City' textbox with valueRueckerton
+[INFO ] [2021-08-06 14:46:20,752] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 14:46:20,883] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 14:46:21,015] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 14:46:21,148] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuevanita.daugherty@hotmail.com
+[INFO ] [2021-08-06 14:46:21,313] Create_New_Customer - Step 11: Input to 'Password' textbox with value6wz2823
+[INFO ] [2021-08-06 14:46:21,429] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:22,475] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 14:46:22,539]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:22,539] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 14:46:22,588] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 14:46:23,064] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 14:46:23,830] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 14:46:23,960] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 14:46:24,704] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 14:46:25,596] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:26,679] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 14:46:26,747]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:26,747] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 14:46:27,024] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:46:27,484] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:46:27,605] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:46:27,730] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:28,805] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:46:28,868]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:28,868] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 14:46:28,919] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 14:46:28,970] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 14:46:29,691] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 14:46:29,822] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:30,848] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 14:46:30,944] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:32,000] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 14:46:32,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:32,060] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 14:46:32,113] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 14:46:32,837] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:46:32,966] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:46:33,088] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:46:33,211] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:34,306] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 14:46:34,363] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:46:34,417] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 14:46:35,171] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 14:46:35,227]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:35,227] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 14:46:35,338] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 14:46:35,447] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:46:35,566] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:36,639] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 14:46:36,693] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 14:46:36,743] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 14:46:36,891] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 14:46:37,010] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 14:46:37,125] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:38,225] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 14:46:38,282]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:38,282] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 14:46:38,327] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 14:46:39,047] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 14:46:39,113]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:39,113] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 14:46:39,233] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 14:46:39,351] Transfer_Money_To_Another_Account - Step 11: Input valid value to 'Amount'
+[INFO ] [2021-08-06 14:46:39,466] Transfer_Money_To_Another_Account - Step 12: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 14:46:39,585] Transfer_Money_To_Another_Account - Step 13: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:40,707] Transfer_Money_To_Another_Account - Step 14: Verify 'Fund Transfer Details' heading is displayed
+[INFO ] [2021-08-06 14:46:40,768]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:40,769] Transfer_Money_To_Another_Account - Step 15: Verify 'Amount' is correct
+[INFO ] [2021-08-06 14:46:40,824] Check_Current_Account_Balance - Step 01: Click to 'Balance Enquiry' Link
+[INFO ] [2021-08-06 14:46:41,611] Check_Current_Account_Balance - Step 02: Verify 'Balance Enquiry Form' heading is displayed
+[INFO ] [2021-08-06 14:46:41,672]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 14:46:41,672] Check_Current_Account_Balance - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 14:46:41,788] Check_Current_Account_Balance - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 14:46:42,855] Check_Current_Account_Balance - Step 05: Verify 'Balance Details' heading is displayed
+[INFO ] [2021-08-06 14:46:42,901] Check_Current_Account_Balance - Step 06: Verify 'Balance' is correct
+[INFO ] [2021-08-06 14:46:42,963] OS name = windows 10
+[INFO ] [2021-08-06 14:46:44,175] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 15:10:18,546] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 15:10:24,821] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 15:10:24,827] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 15:10:26,663] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 15:10:26,863] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:27,791] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 15:10:27,849] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 15:10:27,905] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 15:10:29,529] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 15:10:29,687] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 15:10:29,836] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 15:10:31,433] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 15:10:31,627] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 15:10:32,155] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueHong Mohr
+[INFO ] [2021-08-06 15:10:32,302] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 15:10:32,428] Create_New_Customer - Step 04: Input to 'Address' textbox with value41174 Henriette Oval
+[INFO ] [2021-08-06 15:10:32,592] Create_New_Customer - Step 06: Input to 'City' textbox with valueFlatleyshire
+[INFO ] [2021-08-06 15:10:32,726] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 15:10:32,861] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 15:10:32,994] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 15:10:33,126] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuesherice.hintz@hotmail.com
+[INFO ] [2021-08-06 15:10:33,285] Create_New_Customer - Step 11: Input to 'Password' textbox with valuetky033
+[INFO ] [2021-08-06 15:10:33,401] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:34,577] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 15:10:34,636]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:34,636] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 15:10:34,682] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 15:10:35,175] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 15:10:35,944] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 15:10:36,080] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 15:10:36,867] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 15:10:37,685] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:38,810] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 15:10:38,879]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:38,879] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 15:10:39,155] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:10:39,644] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:10:39,766] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:10:39,893] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:41,047] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:10:41,110]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:41,110] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 15:10:41,156] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 15:10:41,208] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 15:10:42,268] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:10:42,394] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:43,150] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 15:10:43,257] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:44,448] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 15:10:44,505]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:44,506] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 15:10:44,565] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 15:10:45,340] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:10:45,460] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:10:45,576] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:10:45,690] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:46,807] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 15:10:46,864] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:10:46,920] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 15:10:47,705] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 15:10:47,768]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:47,768] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:10:47,876] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:10:47,990] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:10:48,110] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:49,183] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 15:10:49,235] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:10:49,283] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:10:49,431] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:10:49,552] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:10:49,682] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:50,765] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:10:50,826]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:50,826] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 15:10:50,870] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 15:10:51,883] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 15:10:51,935]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:51,935] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 15:10:52,052] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 15:10:52,172] Transfer_Money_To_Another_Account - Step 11: Input valid value to 'Amount'
+[INFO ] [2021-08-06 15:10:52,287] Transfer_Money_To_Another_Account - Step 12: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:10:52,409] Transfer_Money_To_Another_Account - Step 13: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:53,437] Transfer_Money_To_Another_Account - Step 14: Verify 'Fund Transfer Details' heading is displayed
+[INFO ] [2021-08-06 15:10:53,503]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:53,503] Transfer_Money_To_Another_Account - Step 15: Verify 'Amount' is correct
+[INFO ] [2021-08-06 15:10:53,554] Check_Current_Account_Balance - Step 01: Click to 'Balance Enquiry' Link
+[INFO ] [2021-08-06 15:10:54,282] Check_Current_Account_Balance - Step 02: Verify 'Balance Enquiry Form' heading is displayed
+[INFO ] [2021-08-06 15:10:54,338]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:54,338] Check_Current_Account_Balance - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:10:54,456] Check_Current_Account_Balance - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:55,455] Check_Current_Account_Balance - Step 05: Verify 'Balance Details' heading is displayed
+[INFO ] [2021-08-06 15:10:55,501] Check_Current_Account_Balance - Step 06: Verify 'Balance' is correct
+[INFO ] [2021-08-06 15:10:55,565] Delete_Account - Step 01: Click to 'Delete Account' label in the left Menu
+[INFO ] [2021-08-06 15:10:56,385] Delete_Account - Step 02: Verify 'Delete Account Form' heading is displayed
+[INFO ] [2021-08-06 15:10:56,452]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:56,452] Delete_Account - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:10:56,565] Delete_Account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:56,699] Delete_Account - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:10:57,160] Delete_Account - Step 06: Click to 'Edit Account' label in the left Menu
+[INFO ] [2021-08-06 15:10:57,997] Delete_Account - Step 07: Verify 'Edit Account Form' heading is displayed
+[INFO ] [2021-08-06 15:10:58,054]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:10:58,054] Delete_Account - Step 08: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:10:58,169] Delete_Account - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:10:58,629] Delete_Account - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:10:58,645] Delete_Customer - Step 01: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:11:00,094] Delete_Customer - Step 02: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:11:00,150]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:11:00,151] Delete_Customer - Step 03: Input valid CustomerID to 'Customer ID'
+[INFO ] [2021-08-06 15:11:00,269] Delete_Customer - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:11:00,356] Delete_Customer - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:11:00,842] Delete_Customer - Step 06: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:11:01,693] Delete_Customer - Step 07: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:11:01,745]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:11:01,745] Delete_Customer - Step 08: Input valid CustomerID to 'CustomerID'
+[INFO ] [2021-08-06 15:11:01,858] Delete_Customer - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:11:01,943] Delete_Customer - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:11:02,353] OS name = windows 10
+[INFO ] [2021-08-06 15:11:04,034] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 15:13:02,192] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 15:13:08,368] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 15:13:08,373] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 15:13:09,988] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 15:13:10,169] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:11,173] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 15:13:11,233] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 15:13:11,280] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 15:13:12,502] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 15:13:12,662] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 15:13:12,790] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 15:13:14,333] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 15:13:14,587] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 15:13:15,090] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueNova Aufderhar
+[INFO ] [2021-08-06 15:13:15,252] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 15:13:15,378] Create_New_Customer - Step 04: Input to 'Address' textbox with value5191 Kelly Extension
+[INFO ] [2021-08-06 15:13:15,539] Create_New_Customer - Step 06: Input to 'City' textbox with valueSchultzhaven
+[INFO ] [2021-08-06 15:13:15,673] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 15:13:15,799] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 15:13:15,930] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 15:13:16,070] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuelaurette.renner@yahoo.com
+[INFO ] [2021-08-06 15:13:16,224] Create_New_Customer - Step 11: Input to 'Password' textbox with valuecxafzow
+[INFO ] [2021-08-06 15:13:16,339] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:17,394] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 15:13:17,460]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:17,460] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 15:13:17,508] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 15:13:18,004] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 15:13:18,787] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 15:13:18,919] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 15:13:19,627] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 15:13:20,434] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:21,461] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 15:13:21,524]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:21,524] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 15:13:21,806] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:13:22,268] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:13:22,389] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:13:22,509] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:23,603] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:13:23,661]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:23,661] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 15:13:23,706] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 15:13:23,757] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 15:13:24,492] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:13:24,621] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:25,637] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 15:13:25,728] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:26,816] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 15:13:26,878]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:26,878] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 15:13:26,933] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 15:13:28,354] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:13:28,481] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:13:28,604] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:13:28,729] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:29,508] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 15:13:29,566] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:13:29,616] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 15:13:30,407] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 15:13:30,468]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:30,468] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:13:30,581] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:13:30,697] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:13:30,816] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:31,919] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 15:13:31,973] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:13:32,023] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:13:32,176] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:13:32,295] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:13:32,415] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:33,554] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:13:33,612]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:33,612] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 15:13:33,657] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 15:13:34,735] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 15:13:34,798]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:34,798] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 15:13:34,916] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 15:13:35,033] Transfer_Money_To_Another_Account - Step 11: Input valid value to 'Amount'
+[INFO ] [2021-08-06 15:13:35,149] Transfer_Money_To_Another_Account - Step 12: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:13:35,271] Transfer_Money_To_Another_Account - Step 13: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:36,464] Transfer_Money_To_Another_Account - Step 14: Verify 'Fund Transfer Details' heading is displayed
+[INFO ] [2021-08-06 15:13:36,523]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:36,523] Transfer_Money_To_Another_Account - Step 15: Verify 'Amount' is correct
+[INFO ] [2021-08-06 15:13:36,575] Check_Current_Account_Balance - Step 01: Click to 'Balance Enquiry' Link
+[INFO ] [2021-08-06 15:13:37,329] Check_Current_Account_Balance - Step 02: Verify 'Balance Enquiry Form' heading is displayed
+[INFO ] [2021-08-06 15:13:37,383]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:37,383] Check_Current_Account_Balance - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:13:37,494] Check_Current_Account_Balance - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:38,554] Check_Current_Account_Balance - Step 05: Verify 'Balance Details' heading is displayed
+[INFO ] [2021-08-06 15:13:38,612] Check_Current_Account_Balance - Step 06: Verify 'Balance' is correct
+[INFO ] [2021-08-06 15:13:38,680] Delete_Account - Step 01: Click to 'Delete Account' label in the left Menu
+[INFO ] [2021-08-06 15:13:39,462] Delete_Account - Step 02: Verify 'Delete Account Form' heading is displayed
+[INFO ] [2021-08-06 15:13:39,520]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:39,520] Delete_Account - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:13:39,632] Delete_Account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:39,716] Delete_Account - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:13:40,179] Delete_Account - Step 06: Click to 'Edit Account' label in the left Menu
+[INFO ] [2021-08-06 15:13:41,344] Delete_Account - Step 07: Verify 'Edit Account Form' heading is displayed
+[INFO ] [2021-08-06 15:13:41,400]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:41,401] Delete_Account - Step 08: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:13:41,511] Delete_Account - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:41,979] Delete_Account - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:13:41,996] Delete_Customer - Step 01: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:13:43,442] Delete_Customer - Step 02: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:13:43,498]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:43,498] Delete_Customer - Step 03: Input valid CustomerID to 'Customer ID'
+[INFO ] [2021-08-06 15:13:43,618] Delete_Customer - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:48,712] Delete_Customer - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:13:58,762] Delete_Customer - Step 06: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:13:59,218] Delete_Customer - Step 07: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:13:59,285]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:13:59,285] Delete_Customer - Step 08: Input valid CustomerID to 'CustomerID'
+[INFO ] [2021-08-06 15:13:59,440] Delete_Customer - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:13:59,546] Delete_Customer - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:13:59,896] OS name = windows 10
+[INFO ] [2021-08-06 15:14:02,182] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 15:17:39,750] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 15:17:46,173] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 15:17:46,179] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 15:17:47,872] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 15:17:48,053] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:17:48,995] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 15:17:49,053] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 15:17:49,102] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 15:17:50,669] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 15:17:50,862] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 15:17:51,003] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 15:17:52,351] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 15:17:52,575] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 15:17:53,130] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueNoel Sipes
+[INFO ] [2021-08-06 15:17:53,279] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 15:17:53,406] Create_New_Customer - Step 04: Input to 'Address' textbox with value73428 Nelida Curve
+[INFO ] [2021-08-06 15:17:53,574] Create_New_Customer - Step 06: Input to 'City' textbox with valueHansenhaven
+[INFO ] [2021-08-06 15:17:53,706] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 15:17:53,840] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 15:17:53,969] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 15:17:54,110] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuestacey.gislason@gmail.com
+[INFO ] [2021-08-06 15:17:54,271] Create_New_Customer - Step 11: Input to 'Password' textbox with value83wwb8y
+[INFO ] [2021-08-06 15:17:54,388] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 15:17:55,543] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 15:17:55,602]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:17:55,603] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 15:17:55,650] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 15:17:56,127] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 15:17:56,934] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 15:17:57,068] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 15:17:57,850] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 15:17:58,672] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:17:59,806] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 15:17:59,869]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:17:59,870] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 15:18:00,151] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:18:00,642] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:18:00,764] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:18:00,887] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:02,028] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:18:02,089]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:02,089] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 15:18:02,135] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 15:18:02,187] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 15:18:02,955] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:18:03,086] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:04,171] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 15:18:04,283] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:05,382] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 15:18:05,440]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:05,440] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 15:18:05,497] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 15:18:06,281] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:18:06,404] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:18:06,520] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:18:06,635] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:07,763] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 15:18:07,827] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:18:07,879] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 15:18:08,618] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 15:18:08,678]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:08,679] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:18:08,798] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:18:08,906] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:18:09,027] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:10,092] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 15:18:10,146] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:18:10,192] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:18:10,343] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:18:10,459] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:18:10,577] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:11,635] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:18:11,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:11,698] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 15:18:11,743] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 15:18:12,560] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 15:18:12,612]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:12,612] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 15:18:12,730] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 15:18:12,850] Transfer_Money_To_Another_Account - Step 11: Input valid value to 'Amount'
+[INFO ] [2021-08-06 15:18:12,969] Transfer_Money_To_Another_Account - Step 12: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:18:13,085] Transfer_Money_To_Another_Account - Step 13: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:14,221] Transfer_Money_To_Another_Account - Step 14: Verify 'Fund Transfer Details' heading is displayed
+[INFO ] [2021-08-06 15:18:14,284]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:14,284] Transfer_Money_To_Another_Account - Step 15: Verify 'Amount' is correct
+[INFO ] [2021-08-06 15:18:14,334] Check_Current_Account_Balance - Step 01: Click to 'Balance Enquiry' Link
+[INFO ] [2021-08-06 15:18:15,077] Check_Current_Account_Balance - Step 02: Verify 'Balance Enquiry Form' heading is displayed
+[INFO ] [2021-08-06 15:18:15,135]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:15,135] Check_Current_Account_Balance - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:18:15,248] Check_Current_Account_Balance - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:16,258] Check_Current_Account_Balance - Step 05: Verify 'Balance Details' heading is displayed
+[INFO ] [2021-08-06 15:18:16,315] Check_Current_Account_Balance - Step 06: Verify 'Balance' is correct
+[INFO ] [2021-08-06 15:18:16,380] Delete_Account - Step 01: Click to 'Delete Account' label in the left Menu
+[INFO ] [2021-08-06 15:18:17,094] Delete_Account - Step 02: Verify 'Delete Account Form' heading is displayed
+[INFO ] [2021-08-06 15:18:17,153]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:17,153] Delete_Account - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:18:17,266] Delete_Account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:17,350] Delete_Account - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:18:17,776] Delete_Account - Step 06: Click to 'Edit Account' label in the left Menu
+[INFO ] [2021-08-06 15:18:18,612] Delete_Account - Step 07: Verify 'Edit Account Form' heading is displayed
+[INFO ] [2021-08-06 15:18:18,666]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:18,666] Delete_Account - Step 08: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:18:18,777] Delete_Account - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:19,894] Delete_Account - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:18:19,902] Delete_Account2 - Step 01: Click to 'Delete Account' label in the left Menu
+[INFO ] [2021-08-06 15:18:21,010] Delete_Account2 - Step 02: Verify 'Delete Account Form' heading is displayed
+[INFO ] [2021-08-06 15:18:21,061]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:21,061] Delete_Account2 - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:18:21,189] Delete_Account2 - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:21,275] Delete_Account2 - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:18:21,681] Delete_Account2 - Step 06: Click to 'Edit Account' label in the left Menu
+[INFO ] [2021-08-06 15:18:22,746] Delete_Account2 - Step 07: Verify 'Edit Account Form' heading is displayed
+[INFO ] [2021-08-06 15:18:22,805]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:22,806] Delete_Account2 - Step 08: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:18:22,918] Delete_Account2 - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:24,021] Delete_Account2 - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:18:24,055] Delete_Customer - Step 01: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:18:24,833] Delete_Customer - Step 02: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:18:24,892]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:24,892] Delete_Customer - Step 03: Input valid CustomerID to 'Customer ID'
+[INFO ] [2021-08-06 15:18:25,009] Delete_Customer - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:30,105] Delete_Customer - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:18:40,157] Delete_Customer - Step 06: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:18:40,585] Delete_Customer - Step 07: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:18:40,649]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:18:40,649] Delete_Customer - Step 08: Input valid CustomerID to 'CustomerID'
+[INFO ] [2021-08-06 15:18:40,778] Delete_Customer - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:18:40,867] Delete_Customer - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:18:41,240] OS name = windows 10
+[INFO ] [2021-08-06 15:18:43,074] ---------- QUIT BROWSER SUCCESS ----------
+[INFO ] [2021-08-06 15:20:45,362] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+[INFO ] [2021-08-06 15:20:51,255] Pre-condition - Step 02: Get current Url
+[INFO ] [2021-08-06 15:20:51,263] Pre-condition - Step 03: Click to 'here' link
+[INFO ] [2021-08-06 15:20:53,009] Pre-condition - Step 04: Enter to 'Email ID' textbox
+[INFO ] [2021-08-06 15:20:53,174] Pre-condition - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:20:54,066] Pre-condition - Step 06: Get 'User ID' value
+[INFO ] [2021-08-06 15:20:54,121] Pre-condition - Step 07: Get 'Password' value
+[INFO ] [2021-08-06 15:20:54,170] Pre-condition - Step 08: Back to LoginPage
+[INFO ] [2021-08-06 15:20:55,718] Pre-condition - Step 09: Enter to 'UserID' textbox
+[INFO ] [2021-08-06 15:20:55,918] Pre-condition - Step 10: Enter to 'Password' textbox
+[INFO ] [2021-08-06 15:20:56,040] Pre-condition - Step 11: Click to 'Login' button
+[INFO ] [2021-08-06 15:20:57,565] Pre-condition - Step 12: Verify login success message is displayed
+[INFO ] [2021-08-06 15:20:57,767] Create_New_Customer - Step 01: Click to 'New Customer' Link
+[INFO ] [2021-08-06 15:20:58,301] Create_New_Customer - Step 02: Input to 'Customer Name' textbox with valueOdis Murphy
+[INFO ] [2021-08-06 15:20:58,442] Create_New_Customer - Step 03: Input to 'Date of Birth' textbox with value03/02/1998
+[INFO ] [2021-08-06 15:20:58,571] Create_New_Customer - Step 04: Input to 'Address' textbox with value71759 Frederic Court
+[INFO ] [2021-08-06 15:20:58,738] Create_New_Customer - Step 06: Input to 'City' textbox with valueWest Pablo
+[INFO ] [2021-08-06 15:20:58,866] Create_New_Customer - Step 07: Input to 'State' textbox with valueTan Binh
+[INFO ] [2021-08-06 15:20:58,994] Create_New_Customer - Step 08: Input to 'PIN' textbox with value123456
+[INFO ] [2021-08-06 15:20:59,123] Create_New_Customer - Step 09: Input to 'Mobile Number' textbox with value0964123456
+[INFO ] [2021-08-06 15:20:59,258] Create_New_Customer - Step 10: Input to 'E-mail' textbox with valuedwayne.beahan@gmail.com
+[INFO ] [2021-08-06 15:20:59,412] Create_New_Customer - Step 11: Input to 'Password' textbox with valuer11psx6
+[INFO ] [2021-08-06 15:20:59,530] Create_New_Customer - Step 12: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:00,675] Create_New_Customer - Step 13: Verify success message is displayed with content 'Customer Registered Successfully!!!'
+[INFO ] [2021-08-06 15:21:00,734]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:00,734] Create_New_Customer - Step 14: Get 'Customer ID' text value
+[INFO ] [2021-08-06 15:21:00,781] Create_New_Customer - Step 15: Verify New Customer information
+[INFO ] [2021-08-06 15:21:01,270] Edit_Customer_Account - Step 01: Click to 'Edit Customer' Link
+[INFO ] [2021-08-06 15:21:01,961] Edit_Customer_Account - Step 02: Input valid CustomerID
+[INFO ] [2021-08-06 15:21:02,098] Edit_Customer_Account - Step 03: Click to Submitt button
+[INFO ] [2021-08-06 15:21:02,840] Edit_Customer_Account - Step 04: Input new information for Edit Customer
+[INFO ] [2021-08-06 15:21:03,637] Edit_Customer_Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:04,692] Edit_Customer_Account - Step 06: Verify login success message is displayed
+[INFO ] [2021-08-06 15:21:04,749]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:04,749] Edit_Customer_Account - Step 06: Verify Edit New Customer information
+[INFO ] [2021-08-06 15:21:05,021] New_Account Create a new account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:21:05,528] New_Account Create a new account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:21:05,653] New_Account Create a new account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:21:05,777] New_Account Create a new account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:06,856] New_Account Create a new account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:21:06,920]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:06,920] New_Account Create a new account - Step 06: Verify 'Current Amount'
+[INFO ] [2021-08-06 15:21:06,967] New_Account Create a new account - Step 07: Get 'Account ID'
+[INFO ] [2021-08-06 15:21:07,022] Edit_Account with Type is Current - Step 01: Click to 'Edit Account' Link
+[INFO ] [2021-08-06 15:21:07,731] Edit_Account with Type is Current - Step 02: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:21:07,863] Edit_Account with Type is Current - Step 03: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:08,890] Edit_Account with Type is Current - Step 04: Select 'Current' option in 'Type of Account'
+[INFO ] [2021-08-06 15:21:09,046] Edit_Account with Type is Current - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:10,078] Edit_Account with Type is Current - Step 06: Verify success message is displayed
+[INFO ] [2021-08-06 15:21:10,136]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:10,136] Edit_Account with Type is Current - Step 07: Verify 'Account Type' is changed to 'Current'
+[INFO ] [2021-08-06 15:21:10,190] Transfer_Money to Current Account - Step 01: Click to 'Deposit' in left Menu
+[INFO ] [2021-08-06 15:21:10,934] Transfer_Money to Current Account - Step 02: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:21:11,062] Transfer_Money to Current Account - Step 03: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:21:11,187] Transfer_Money to Current Account - Step 04: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:21:11,309] Transfer_Money to Current Account - Step 05: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:12,084] Transfer_Money to Current Account - Step 06: Verify tranfer message success
+[INFO ] [2021-08-06 15:21:12,143] Transfer_Money to Current Account - Step 07: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:21:12,195] Withdrawal_Money from Current Account - Step 01: Click to 'Withdrawal' in left Menu
+[INFO ] [2021-08-06 15:21:12,956] Withdrawal_Money from Current Account - Step 02: Verify 'Amount Withdrawal Form' heading is displayed
+[INFO ] [2021-08-06 15:21:13,018]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:13,018] Withdrawal_Money from Current Account - Step 03: Input valid AccountID to 'Account No' textbox
+[INFO ] [2021-08-06 15:21:13,131] Withdrawal_Money from Current Account - Step 04: Input valid Amount to 'Amount' textbox
+[INFO ] [2021-08-06 15:21:13,244] Withdrawal_Money from Current Account - Step 05: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:21:13,373] Withdrawal_Money from Current Account - Step 06: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:14,447] Withdrawal_Money from Current Account - Step 07: Verify tranfer message success
+[INFO ] [2021-08-06 15:21:14,499] Withdrawal_Money from Current Account - Step 08: Verify Current Balance after transfer
+[INFO ] [2021-08-06 15:21:14,545] Transfer_Money_To_Another_Account add another account - Step 01: Click to 'New Account' Link
+[INFO ] [2021-08-06 15:21:14,712] Transfer_Money_To_Another_Account add another account - Step 02: Input valid customerID to 'Customer ID' textbox
+[INFO ] [2021-08-06 15:21:14,831] Transfer_Money_To_Another_Account add another account - Step 03: Input to 'Initial_Deposit' textbox with valid value
+[INFO ] [2021-08-06 15:21:14,945] Transfer_Money_To_Another_Account add another account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:16,069] Transfer_Money_To_Another_Account add another account - Step 05: Verify success message is displayed
+[INFO ] [2021-08-06 15:21:16,136]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:16,136] Transfer_Money_To_Another_Account add another account - Step 06: Get 'Account ID'
+[INFO ] [2021-08-06 15:21:16,225] Transfer_Money_To_Another_Account - Step 07: Click to 'Fund Transfer' Link
+[INFO ] [2021-08-06 15:21:17,239] Transfer_Money_To_Another_Account - Step 08: Verify 'Fund transfer' heading is displayed
+[INFO ] [2021-08-06 15:21:17,318]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:17,318] Transfer_Money_To_Another_Account - Step 09: Input valid AccountID 'Payers account no'
+[INFO ] [2021-08-06 15:21:17,465] Transfer_Money_To_Another_Account - Step 10: Input valid AccountID 'Payees account no'
+[INFO ] [2021-08-06 15:21:17,620] Transfer_Money_To_Another_Account - Step 11: Input valid value to 'Amount'
+[INFO ] [2021-08-06 15:21:17,769] Transfer_Money_To_Another_Account - Step 12: Input valid Description to 'Description' textbox
+[INFO ] [2021-08-06 15:21:17,918] Transfer_Money_To_Another_Account - Step 13: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:18,728] Transfer_Money_To_Another_Account - Step 14: Verify 'Fund Transfer Details' heading is displayed
+[INFO ] [2021-08-06 15:21:18,796]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:18,796] Transfer_Money_To_Another_Account - Step 15: Verify 'Amount' is correct
+[INFO ] [2021-08-06 15:21:18,879] Check_Current_Account_Balance - Step 01: Click to 'Balance Enquiry' Link
+[INFO ] [2021-08-06 15:21:19,659] Check_Current_Account_Balance - Step 02: Verify 'Balance Enquiry Form' heading is displayed
+[INFO ] [2021-08-06 15:21:19,720]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:19,720] Check_Current_Account_Balance - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:21:19,837] Check_Current_Account_Balance - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:20,897] Check_Current_Account_Balance - Step 05: Verify 'Balance Details' heading is displayed
+[INFO ] [2021-08-06 15:21:20,941] Check_Current_Account_Balance - Step 06: Verify 'Balance' is correct
+[INFO ] [2021-08-06 15:21:21,002] Delete_Account - Step 01: Click to 'Delete Account' label in the left Menu
+[INFO ] [2021-08-06 15:21:21,722] Delete_Account - Step 02: Verify 'Delete Account Form' heading is displayed
+[INFO ] [2021-08-06 15:21:21,776]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:21,777] Delete_Account - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:21:21,885] Delete_Account - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:21,967] Delete_Account - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:21:22,395] Delete_Account - Step 06: Click to 'Edit Account' label in the left Menu
+[INFO ] [2021-08-06 15:21:23,491] Delete_Account - Step 07: Verify 'Edit Account Form' heading is displayed
+[INFO ] [2021-08-06 15:21:23,550]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:23,551] Delete_Account - Step 08: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:21:23,665] Delete_Account - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:24,105] Delete_Account - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:21:24,118] Delete_Account2 - Step 01: Click to 'Delete Account' label in the left Menu
+[INFO ] [2021-08-06 15:21:24,905] Delete_Account2 - Step 02: Verify 'Delete Account Form' heading is displayed
+[INFO ] [2021-08-06 15:21:24,954]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:24,954] Delete_Account2 - Step 03: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:21:25,070] Delete_Account2 - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:25,156] Delete_Account2 - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:21:25,575] Delete_Account2 - Step 06: Click to 'Edit Account' label in the left Menu
+[INFO ] [2021-08-06 15:21:26,681] Delete_Account2 - Step 07: Verify 'Edit Account Form' heading is displayed
+[INFO ] [2021-08-06 15:21:26,732]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:26,732] Delete_Account2 - Step 08: Input valid AccountID to 'Account No'
+[INFO ] [2021-08-06 15:21:26,840] Delete_Account2 - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:27,255] Delete_Account2 - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:21:27,277] Delete_Customer - Step 01: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:21:28,644] Delete_Customer - Step 02: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:21:28,705]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:28,705] Delete_Customer - Step 03: Input valid CustomerID to 'Customer ID'
+[INFO ] [2021-08-06 15:21:28,822] Delete_Customer - Step 04: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:33,916] Delete_Customer - Step 05: Accept and verify Alert
+[INFO ] [2021-08-06 15:21:43,961] Delete_Customer - Step 06: Click to 'Delete Customer' label in the left Menu
+[INFO ] [2021-08-06 15:21:44,390] Delete_Customer - Step 07: Verify 'Delete Customer Form' heading is displayed
+[INFO ] [2021-08-06 15:21:44,456]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-08-06 15:21:44,456] Delete_Customer - Step 08: Input valid CustomerID to 'CustomerID'
+[INFO ] [2021-08-06 15:21:44,586] Delete_Customer - Step 09: Click to 'Submit' button
+[INFO ] [2021-08-06 15:21:44,674] Delete_Customer - Step 10: Accept to Alert and verify 'Account does not exist' is displayed
+[INFO ] [2021-08-06 15:21:45,036] OS name = windows 10
+[INFO ] [2021-08-06 15:21:46,431] ---------- QUIT BROWSER SUCCESS ----------

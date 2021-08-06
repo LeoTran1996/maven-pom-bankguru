@@ -117,10 +117,10 @@ public class Customer_03_Detele_Customer extends BaseTest {
 
 		log.info("Pre-condition - Step 25: Click to 'Delete Customer' label");
 		newCusomerPage.openPageAtLeftSubMenuByText(driver, "Delete Customer");
-		
+
 		log.info("Pre-condition - Step 26: Verify 'Delete Customer Form' heading is displayed");
 		newCusomerPage.isHeadinglDisplayedByTextName(driver, "Delete Customer Form");
-		
+
 	}
 
 	@Test
@@ -156,6 +156,7 @@ public class Customer_03_Detele_Customer extends BaseTest {
 		log.info("Delete_Customer_CustomerID cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "14"), "Special characters are not allowed");
 	}
+
 	@Test
 	public void TC_04_Delete_Customer_CustomerID_Can_Not_Have_First_Character_As_Blank() {
 
@@ -165,6 +166,7 @@ public class Customer_03_Detele_Customer extends BaseTest {
 		log.info("Delete_Customer_CustomerID cannot have first character as blank space - Step 02: Verify warning message is displayed with 'First character can not have space'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "14"), "First character can not have space");
 	}
+
 	@Test
 	public void TC_05_Delete_Customer_CustomerID_Can_Not_Have_Blank_Space() {
 
@@ -174,6 +176,7 @@ public class Customer_03_Detele_Customer extends BaseTest {
 		log.info("Delete_Customer_CustomerID cannot have blank space - Step 02: Verify warning message is displayed with 'Characters are not allowed'");
 		verifyEquals(newCusomerPage.getWarningMessageByID(driver, "14"), "Characters are not allowed");
 	}
+
 	@Test
 	public void TC_06_Delete_Customer_CustomerID_With_Valid_Customer_ID() {
 		log.info("Delete_Customer_CustomerID Valid CustomerID  - Step 01: Input valid customerID to 'Customer ID' textbox");
@@ -181,20 +184,19 @@ public class Customer_03_Detele_Customer extends BaseTest {
 
 		log.info("Delete_Customer_CustomerID Valid CustomerID  - Step 02: Click to Submit button");
 		newCusomerPage.clickToButtonByName(driver, "AccSubmit");
-		
+
 		log.info("Delete_Customer_CustomerID Valid CustomerID  - Step 03: Select OK button at Alert");
 		newCusomerPage.acceptAlert(driver);
-		
+
 		log.info("Delete_Customer_CustomerID Valid CustomerID  - Step 04: Verify success message is displayed");
 		verifyEquals(newCusomerPage.getAlertText(driver), "Customer deleted Successfully");
 		newCusomerPage.acceptAlert(driver);
 		homePage = PageGeneratorManager.getHomePage(driver);
-		
+
 		log.info("Delete_Customer_CustomerID Valid CustomerID  - Step 05: Verify login success message is displayed at HomePage");
 		verifyEquals(homePage.getSuccessMessageText(), "Manger Id :" + " " + userID);
-		
-	}
 
+	}
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {

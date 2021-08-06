@@ -121,7 +121,7 @@ public class Customer_05_Edit_Account extends BaseTest {
 
 		log.info("Pre-condition - Step 26: Verify 'Add new account form Customer Form' heading is displayed");
 		customerPage.isHeadinglDisplayedByTextName(driver, "Add new account form");
-		
+
 		log.info("Pre-condition - Step 27: Input valid customerID to 'Customer ID' textbox");
 		customerPage.sendKeyToTextboxByName(driver, customerID, "cusid");
 
@@ -136,14 +136,13 @@ public class Customer_05_Edit_Account extends BaseTest {
 
 		log.info("Pre-condition - Step 31: Get 'Account ID'");
 		accountNo = customerPage.getAccountID();
-		
+
 		log.info("Pre-condition - Step 32: Click to 'Edit Account' label");
 		customerPage.openPageAtLeftSubMenuByText(driver, "Edit Account");
 
 		log.info("Pre-condition - Step 33: Verify 'Edit Account Form' heading");
 		customerPage.isHeadinglDisplayedByTextName(driver, "Edit Account Form");
-		
-		
+
 	}
 
 	@Test
@@ -190,13 +189,12 @@ public class Customer_05_Edit_Account extends BaseTest {
 
 		log.info("Edit_Account_AccountNo Valid AccountNo  - Step 03: Verify 'Edit Account Entry Formr' heading is displayed");
 		customerPage.isHeadinglDisplayedByTextName(driver, "Edit Account Entry Form");
-		
+
 		log.info("Edit_Account_AccountNo Valid AccountNo  - Step 04: Verify 'CustomerID' and 'Balance' displayed correct");
 		verifyEquals(customerPage.getCustomerIDAttributeValue(), customerID);
 		verifyEquals(customerPage.getBalanceIDAttributeValue(), inideposit);
 
 	}
-
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
@@ -204,7 +202,7 @@ public class Customer_05_Edit_Account extends BaseTest {
 	}
 
 	String url, emailID, userID, passwordLogin;
-	String email, customerName, addr, state, city, pin, mobileNumber, password, dayofBirth, customerID,inideposit,accountNo;
+	String email, customerName, addr, state, city, pin, mobileNumber, password, dayofBirth, customerID, inideposit, accountNo;
 	WebDriver driver;
 	FakerConfig fakeData;
 	LoginPageObject loginPage;

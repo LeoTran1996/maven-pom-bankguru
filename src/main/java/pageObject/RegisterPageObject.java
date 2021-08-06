@@ -6,7 +6,7 @@ import commons.BasePage;
 import pageUI.RegisterPageUI;
 
 public class RegisterPageObject extends BasePage {
-	
+
 	WebDriver driver;
 
 	public RegisterPageObject(WebDriver driver) {
@@ -22,6 +22,5 @@ public class RegisterPageObject extends BasePage {
 		waitforElementVisible(driver, RegisterPageUI.PASSWORD_TEXT_VALUE);
 		return getElementTex(driver, RegisterPageUI.PASSWORD_TEXT_VALUE);
 	}
-	
-	
+
 }

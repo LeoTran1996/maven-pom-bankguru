@@ -114,7 +114,6 @@ public class Customer_08_Customised_Statement extends BaseTest {
 		log.info("Pre-condition - Step 23: Click to 'Submit' button");
 		sleepInSecond(3);
 		customerPage.clickToButtonByName(driver, "sub");
-		
 
 		log.info("Pre-condition - Step 23: Verify success message is displayed with content 'Customer Registered Successfully!!!'");
 		verifyTrue(customerPage.isSuccessMessageDisplayed());

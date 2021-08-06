@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="bankguru.customer.Customer_07_Ministatement">
+      <class name="bankguru.customer.Customer_11_Payment">
         <methods>
+          <include name="Tc_01_Create_New_Customer_And_Check_Created_Successfully"/>
           <include name="deleteAllFileInReportNGScreenShot"/>
-          <include name="afterClass"/>
-          <include name="TC_02_Mini_Statement_AccountNo_Must_Be_Numeric"/>
-          <include name="TC_03_Mini_Statement_AccountNo_Can_Not_Have_Special_Characters"/>
           <include name="beforeClass"/>
-          <include name="TC_01_Mini_Statement_AccountNo_Canot_Be_Empty"/>
-          <include name="TC_04_Mini_Statement_AccountNo_Valid_AccountNo"/>
+          <include name="Tc_02_Edit_Customer_Account_And_Check_Edited_Successfully"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- bankguru.customer.Customer_07_Ministatement -->
+      </class> <!-- bankguru.customer.Customer_11_Payment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

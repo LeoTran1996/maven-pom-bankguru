@@ -6,7 +6,7 @@ import commons.BasePage;
 import pageUI.LoginPageUI;
 
 public class LoginPageObject extends BasePage {
-	
+
 	WebDriver driver;
 
 	public LoginPageObject(WebDriver driver) {
@@ -15,7 +15,7 @@ public class LoginPageObject extends BasePage {
 
 	public void clickToHereLink() {
 		waitforElementClickable(driver, LoginPageUI.HERE_LINK);
-		clickToElement(driver, LoginPageUI.HERE_LINK);	
+		clickToElement(driver, LoginPageUI.HERE_LINK);
 	}
 
 }

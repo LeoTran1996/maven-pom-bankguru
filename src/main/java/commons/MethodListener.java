@@ -2,7 +2,6 @@ package commons;
 
 import java.util.List;
 
-
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
 import org.testng.ITestResult;
@@ -10,7 +9,6 @@ import org.testng.Reporter;
 import org.testng.internal.Utils;
 
 public class MethodListener implements IInvokedMethodListener {
-	
 
 	@Override
 	public void afterInvocation(IInvokedMethod method, ITestResult result) {
@@ -50,7 +48,7 @@ public class MethodListener implements IInvokedMethodListener {
 	@Override
 	public void beforeInvocation(IInvokedMethod arg0, ITestResult arg1) {
 		// TODO Auto-generated method stub
-		
+
 	}
-	
+
 }

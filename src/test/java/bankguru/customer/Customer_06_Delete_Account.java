@@ -121,7 +121,7 @@ public class Customer_06_Delete_Account extends BaseTest {
 
 		log.info("Pre-condition - Step 26: Verify 'Add new account form Customer Form' heading is displayed");
 		customerPage.isHeadinglDisplayedByTextName(driver, "Add new account form");
-		
+
 		log.info("Pre-condition - Step 27: Input valid customerID to 'Customer ID' textbox");
 		customerPage.sendKeyToTextboxByName(driver, customerID, "cusid");
 
@@ -136,14 +136,13 @@ public class Customer_06_Delete_Account extends BaseTest {
 
 		log.info("Pre-condition - Step 31: Get 'Account ID'");
 		accountNo = customerPage.getAccountID();
-		
+
 		log.info("Pre-condition - Step 32: Click to 'Delete Account' label");
 		customerPage.openPageAtLeftSubMenuByText(driver, "Delete Account");
 
 		log.info("Pre-condition - Step 33: Verify 'Delete Account Form' heading");
 		customerPage.isHeadinglDisplayedByTextName(driver, "Delete Account Form");
-		
-		
+
 	}
 
 	@Test
@@ -179,6 +178,7 @@ public class Customer_06_Delete_Account extends BaseTest {
 		log.info("Delete_Account_AccountNo cannot have special charater - Step 02: Verify warning message is displayed with 'Special characters are not allowed'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "2"), "Special characters are not allowed");
 	}
+
 	@Test
 	public void TC_04_Delete_Account_AccountNo_Can_Not_Have_First_Character_As_Blank() {
 
@@ -188,6 +188,7 @@ public class Customer_06_Delete_Account extends BaseTest {
 		log.info("Delete_Account_AccountNo cannot have first character as blank space - Step 02: Verify warning message is displayed with 'Characters are not allowed");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "2"), "Characters are not allowed");
 	}
+
 	@Test
 	public void TC_05_Delete_Account_AccountNo_Can_Not_Have_Blank_Space() {
 
@@ -197,6 +198,7 @@ public class Customer_06_Delete_Account extends BaseTest {
 		log.info("Delete_Account_AccountNo cannot have blank space - Step 02: Verify warning message is displayed with 'Characters are not allowed'");
 		verifyEquals(customerPage.getWarningMessageByID(driver, "2"), "Characters are not allowed");
 	}
+
 	@Test
 	public void TC_06_Delete_Account_AccountNo_With_Valid_AccountNo() {
 		log.info("Delete_Account_AccountNo Valid CustomerID  - Step 01: Input valid customerID to 'AccountNo' textbox");
@@ -204,20 +206,19 @@ public class Customer_06_Delete_Account extends BaseTest {
 
 		log.info("Delete_Account_AccountNo Valid CustomerID  - Step 02: Click to Submit button");
 		customerPage.clickToButtonByName(driver, "AccSubmit");
-		
+
 		log.info("Delete_Account_AccountNo Valid CustomerID  - Step 03: Select OK button at Alert");
 		customerPage.acceptAlert(driver);
-		
+
 		log.info("Delete_Account_AccountNo Valid CustomerID  - Step 04: Verify success message is displayed");
 		verifyEquals(customerPage.getAlertText(driver), "Account Deleted Sucessfully");
 		customerPage.acceptAlert(driver);
 		homePage = PageGeneratorManager.getHomePage(driver);
-		
+
 		log.info("Delete_Account_AccountNo Valid CustomerID  - Step 05: Verify login success message is displayed at HomePage");
 		verifyEquals(homePage.getSuccessMessageText(), "Manger Id :" + " " + userID);
-		
-	}
 
+	}
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
@@ -225,7 +226,7 @@ public class Customer_06_Delete_Account extends BaseTest {
 	}
 
 	String url, emailID, userID, passwordLogin;
-	String email, customerName, addr, state, city, pin, mobileNumber, password, dayofBirth, customerID,inideposit,accountNo;
+	String email, customerName, addr, state, city, pin, mobileNumber, password, dayofBirth, customerID, inideposit, accountNo;
 	WebDriver driver;
 	FakerConfig fakeData;
 	LoginPageObject loginPage;
