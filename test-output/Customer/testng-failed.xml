@@ -15,7 +15,7 @@
         <methods>
           <include name="deleteAllFileInReportNGScreenShot"/>
           <include name="beforeClass"/>
-          <include name="TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password"/>
+          <include name="TC_07_Change_Password_With_Matched_Password"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- bankguru.customer.Customer_10_Change_Password -->

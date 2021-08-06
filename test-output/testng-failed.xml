@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="tests" name="Failed suite [Customer]">
-  <parameter name="url" value="http://demo.guru99.com/v4"/>
-  <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-    <listener class-name="commons.MethodListener"/>
-    <listener class-name="reportConfig.ExtentListenerVersion4"/>
-  </listeners>
-  <test thread-count="3" parallel="tests" name="Run on chrome(failed)">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="bankguru.customer.Customer_10_Change_Password">
         <methods>
           <include name="deleteAllFileInReportNGScreenShot"/>
+          <include name="TC_03_Change_Password_New_Password_Must_Have_One_Numeric_Value"/>
+          <include name="TC_02_Change_Password_New_Password_Can_Not_Be_Empty"/>
+          <include name="TC_01_Change_Password_Old_Password_Can_Not_Be_Empty"/>
           <include name="beforeClass"/>
+          <include name="TC_04_Change_Password_New_Password_Must_Have_One_Special_Character"/>
           <include name="TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password"/>
+          <include name="TC_07_Change_Password_With_Matched_Password"/>
+          <include name="TC_06_Change_Password_Confirm_Password_Must_Be_Matched"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- bankguru.customer.Customer_10_Change_Password -->
     </classes>
-  </test> <!-- Run on chrome(failed) -->
-</suite> <!-- Failed suite [Customer] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

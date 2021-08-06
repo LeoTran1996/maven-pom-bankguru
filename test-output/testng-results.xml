@@ -1,129 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:40:55,123] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+      <![CDATA[[INFO ] [2021-08-06 08:51:00,969] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:01,865] Pre-condition - Step 02: Get current Url
+      <![CDATA[[INFO ] [2021-08-06 08:51:07,173] Pre-condition - Step 02: Get current Url
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:01,871] Pre-condition - Step 03: Click to 'here' link
+      <![CDATA[[INFO ] [2021-08-06 08:51:07,181] Pre-condition - Step 03: Click to 'here' link
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:04,258] Pre-condition - Step 04: Enter to 'Email ID' textbox
+      <![CDATA[[INFO ] [2021-08-06 08:51:09,251] Pre-condition - Step 04: Enter to 'Email ID' textbox
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:04,455] Pre-condition - Step 05: Click to 'Submit' button
+      <![CDATA[[INFO ] [2021-08-06 08:51:09,545] Pre-condition - Step 05: Click to 'Submit' button
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:05,367] Pre-condition - Step 06: Get 'User ID' value
+      <![CDATA[[INFO ] [2021-08-06 08:51:10,477] Pre-condition - Step 06: Get 'User ID' value
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:05,420] Pre-condition - Step 07: Get 'Password' value
+      <![CDATA[[INFO ] [2021-08-06 08:51:10,530] Pre-condition - Step 07: Get 'Password' value
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:05,471] Pre-condition - Step 08: Back to LoginPage
+      <![CDATA[[INFO ] [2021-08-06 08:51:10,580] Pre-condition - Step 08: Back to LoginPage
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:06,687] Pre-condition - Step 09: Enter to 'UserID' textbox
+      <![CDATA[[INFO ] [2021-08-06 08:51:11,758] Pre-condition - Step 09: Enter to 'UserID' textbox
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:06,868] Pre-condition - Step 10: Enter to 'Password' textbox
+      <![CDATA[[INFO ] [2021-08-06 08:51:11,904] Pre-condition - Step 10: Enter to 'Password' textbox
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:07,032] Pre-condition - Step 11: Click to 'Login' button
+      <![CDATA[[INFO ] [2021-08-06 08:51:12,029] Pre-condition - Step 11: Click to 'Login' button
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:08,617] Pre-condition - Step 12: Verify login success message is displayed
+      <![CDATA[[INFO ] [2021-08-06 08:51:13,579] Pre-condition - Step 12: Verify login success message is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:08,682] Pre-condition - Step 13: Click to 'Change Password' label
+      <![CDATA[[INFO ] [2021-08-06 08:51:13,660] Pre-condition - Step 13: Click to 'Change Password' label
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:09,155] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
+      <![CDATA[[INFO ] [2021-08-06 08:51:14,135] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:09,335] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
+      <![CDATA[[INFO ] [2021-08-06 08:51:14,324] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:09,466] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
+      <![CDATA[[INFO ] [2021-08-06 08:51:14,478] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:09,679] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+      <![CDATA[[INFO ] [2021-08-06 08:51:14,711] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:09,894] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
+      <![CDATA[[INFO ] [2021-08-06 08:51:14,922] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,045] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,098] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,205] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,252] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,289] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,343] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,379] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,434] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,426] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,482] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,534] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,587] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,579] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,631] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,694] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,744] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:10,736] OS name = windows 10
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,785] Change_Password_Confirm_Password must be matched - Step 01:  Input to 'New Password' textbox with value: 'anhtran'
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-08-05 22:41:12,267] ---------- QUIT BROWSER SUCCESS ----------
+      <![CDATA[[INFO ] [2021-08-06 08:51:15,905] Change_Password_Confirm_Password must be matched - Step 02:  Input to 'Confirm Password' textbox with value: 'anhtran@456'
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:16,055] Change_Password_Confirm_Password must be matched - Step 03: Verify warning message is displayed with 'Passwords do not Match'
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:16,108] Change_Password with matched password - Step 01: Input to 'Old' textbox with valid old password
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:16,211] Change_Password with matched password - Step 02: Input to 'New Password' textbox with valid new password: 'anhtran@123'
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:16,323] Change_Password with matched password - Step 03: Input to 'Confirm Password' textbox with valid new confirm password: 'anhtran@123'
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:16,424] Change_Password with matched password - Step 04: Click to 'Submit' button
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:16,862] Change_Password with matched password - Step 05: Verify alertext 'Password is Changed' is displayed and accept to alert
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:16,875] Change_Password with matched password - Step 06: Enter to 'UserID' textbox
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:18,156] Change_Password with matched password - Step 07: Enter to 'Password' textbox
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:18,275] Change_Password with matched password - Step 08: Click to 'Login' button
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:19,361] Change_Password with matched password - Step 09: Verify login success message is displayed
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:19,424] OS name = windows 10
+]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-08-06 08:51:20,696] ---------- QUIT BROWSER SUCCESS ----------
 ]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-08-05T15:40:55Z" name="Customer" finished-at="2021-08-05T15:41:12Z" duration-ms="17391">
+  <suite started-at="2021-08-06T01:51:00Z" name="Customer" finished-at="2021-08-06T01:51:20Z" duration-ms="19937">
     <groups>
     </groups>
-    <test started-at="2021-08-05T15:40:55Z" name="Run on chrome" finished-at="2021-08-05T15:41:12Z" duration-ms="17391">
+    <test started-at="2021-08-06T01:51:00Z" name="Run on chrome" finished-at="2021-08-06T01:51:20Z" duration-ms="19937">
       <class name="bankguru.customer.Customer_10_Change_Password">
-        <test-method is-config="true" signature="deleteAllFileInReportNGScreenShot()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:40:55Z" name="deleteAllFileInReportNGScreenShot" finished-at="2021-08-05T15:40:55Z" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="deleteAllFileInReportNGScreenShot()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:00Z" name="deleteAllFileInReportNGScreenShot" finished-at="2021-08-06T01:51:00Z" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllFileInReportNGScreenShot -->
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:40:55Z" name="beforeClass" finished-at="2021-08-05T15:41:09Z" duration-ms="14106" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:00Z" name="beforeClass" finished-at="2021-08-06T01:51:14Z" duration-ms="13242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,139 +186,195 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:40:55,123] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
+              <![CDATA[[INFO ] [2021-08-06 08:51:00,969] Pre-condition - Step 01: Open Browser: 'chrome' and navigate to 'http://demo.guru99.com/v4'
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:01,865] Pre-condition - Step 02: Get current Url
+              <![CDATA[[INFO ] [2021-08-06 08:51:07,173] Pre-condition - Step 02: Get current Url
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:01,871] Pre-condition - Step 03: Click to 'here' link
+              <![CDATA[[INFO ] [2021-08-06 08:51:07,181] Pre-condition - Step 03: Click to 'here' link
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:04,258] Pre-condition - Step 04: Enter to 'Email ID' textbox
+              <![CDATA[[INFO ] [2021-08-06 08:51:09,251] Pre-condition - Step 04: Enter to 'Email ID' textbox
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:04,455] Pre-condition - Step 05: Click to 'Submit' button
+              <![CDATA[[INFO ] [2021-08-06 08:51:09,545] Pre-condition - Step 05: Click to 'Submit' button
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:05,367] Pre-condition - Step 06: Get 'User ID' value
+              <![CDATA[[INFO ] [2021-08-06 08:51:10,477] Pre-condition - Step 06: Get 'User ID' value
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:05,420] Pre-condition - Step 07: Get 'Password' value
+              <![CDATA[[INFO ] [2021-08-06 08:51:10,530] Pre-condition - Step 07: Get 'Password' value
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:05,471] Pre-condition - Step 08: Back to LoginPage
+              <![CDATA[[INFO ] [2021-08-06 08:51:10,580] Pre-condition - Step 08: Back to LoginPage
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:06,687] Pre-condition - Step 09: Enter to 'UserID' textbox
+              <![CDATA[[INFO ] [2021-08-06 08:51:11,758] Pre-condition - Step 09: Enter to 'UserID' textbox
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:06,868] Pre-condition - Step 10: Enter to 'Password' textbox
+              <![CDATA[[INFO ] [2021-08-06 08:51:11,904] Pre-condition - Step 10: Enter to 'Password' textbox
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:07,032] Pre-condition - Step 11: Click to 'Login' button
+              <![CDATA[[INFO ] [2021-08-06 08:51:12,029] Pre-condition - Step 11: Click to 'Login' button
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:08,617] Pre-condition - Step 12: Verify login success message is displayed
+              <![CDATA[[INFO ] [2021-08-06 08:51:13,579] Pre-condition - Step 12: Verify login success message is displayed
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:08,682] Pre-condition - Step 13: Click to 'Change Password' label
+              <![CDATA[[INFO ] [2021-08-06 08:51:13,660] Pre-condition - Step 13: Click to 'Change Password' label
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:09,155] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
+              <![CDATA[[INFO ] [2021-08-06 08:51:14,135] Pre-condition - Step 14: Verify 'Change Password' heading is displayed
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Change_Password_Old_Password_Can_Not_Be_Empty()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:41:09Z" name="TC_01_Change_Password_Old_Password_Can_Not_Be_Empty" finished-at="2021-08-05T15:41:09Z" duration-ms="506" status="PASS">
+        <test-method signature="TC_01_Change_Password_Old_Password_Can_Not_Be_Empty()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:14Z" name="TC_01_Change_Password_Old_Password_Can_Not_Be_Empty" finished-at="2021-08-06T01:51:14Z" duration-ms="570" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:09,335] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
+              <![CDATA[[INFO ] [2021-08-06 08:51:14,324] Change_Password_Old_Password cannot be empty - Step 01: Input blank value to 'Old Password' textbox
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:09,466] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
+              <![CDATA[[INFO ] [2021-08-06 08:51:14,478] Change_Password_Old_Password cannot be empty - Step 02: Press key TAB to 'Old Password' textbox
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:09,679] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+              <![CDATA[[INFO ] [2021-08-06 08:51:14,711] Change_Password_Old_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_01_Change_Password_Old_Password_Can_Not_Be_Empty -->
-        <test-method signature="TC_02_Change_Password_New_Password_Can_Not_Be_Empty()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:41:09Z" name="TC_02_Change_Password_New_Password_Can_Not_Be_Empty" finished-at="2021-08-05T15:41:10Z" duration-ms="381" status="PASS">
+        <test-method signature="TC_02_Change_Password_New_Password_Can_Not_Be_Empty()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:14Z" name="TC_02_Change_Password_New_Password_Can_Not_Be_Empty" finished-at="2021-08-06T01:51:15Z" duration-ms="401" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:09,894] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
+              <![CDATA[[INFO ] [2021-08-06 08:51:14,922] Change_Password_New_Password cannot be empty - Step 01: Input blank value to 'New Password' textbox
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,045] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,098] Change_Password_New_Password cannot be empty - Step 02: Press key TAB to 'New Password' textbox
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,205] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,252] Change_Password_New_Password cannot be empty - Step 03: Verify warning message is displayed with 'Old Password must not be blank'
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_02_Change_Password_New_Password_Can_Not_Be_Empty -->
-        <test-method signature="TC_03_Change_Password_New_Password_Must_Have_One_Numeric_Value()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:41:10Z" name="TC_03_Change_Password_New_Password_Must_Have_One_Numeric_Value" finished-at="2021-08-05T15:41:10Z" duration-ms="137" status="PASS">
+        <test-method signature="TC_03_Change_Password_New_Password_Must_Have_One_Numeric_Value()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:15Z" name="TC_03_Change_Password_New_Password_Must_Have_One_Numeric_Value" finished-at="2021-08-06T01:51:15Z" duration-ms="139" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,289] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,343] Change_Password_New_Password must have one numeric value - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!'
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,379] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,434] Change_Password_New_Password must have one numeric value - Step 02: Verify warning message is displayed with 'Enter at-least one numeric value'
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_03_Change_Password_New_Password_Must_Have_One_Numeric_Value -->
-        <test-method signature="TC_04_Change_Password_New_Password_Must_Have_One_Special_Character()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:41:10Z" name="TC_04_Change_Password_New_Password_Must_Have_One_Special_Character" finished-at="2021-08-05T15:41:10Z" duration-ms="150" status="PASS">
+        <test-method signature="TC_04_Change_Password_New_Password_Must_Have_One_Special_Character()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:15Z" name="TC_04_Change_Password_New_Password_Must_Have_One_Special_Character" finished-at="2021-08-06T01:51:15Z" duration-ms="147" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,426] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,482] Change_Password_New_Password must have one special chatacter - Step 01:  Input to 'New Password' textbox with value: 'anhtran123'
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,534] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,587] Change_Password_New_Password must have one special chatacter - Step 02: Verify warning message is displayed with 'Enter at-least one special character'
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_04_Change_Password_New_Password_Must_Have_One_Special_Character -->
-        <test-method signature="TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:41:10Z" name="TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password" finished-at="2021-08-05T15:41:10Z" duration-ms="156" status="PASS">
+        <test-method signature="TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:15Z" name="TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password" finished-at="2021-08-06T01:51:15Z" duration-ms="152" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,579] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,631] Change_Password_New_Password cannot have password with string 'password' - Step 01:  Input to 'New Password' textbox with value: 'anhtran@!password'
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,694] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,744] Change_Password_New_Password cannot have password with string 'password' - Step 02: Verify warning message is displayed with 'Choose a difficult Password'
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_05_Change_Password_New_Password_Cannot_Have_Password_With_String_Password -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@771d1ffb]" started-at="2021-08-05T15:41:10Z" name="afterClass" finished-at="2021-08-05T15:41:12Z" duration-ms="1699" status="PASS">
+        <test-method signature="TC_06_Change_Password_Confirm_Password_Must_Be_Matched()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:15Z" name="TC_06_Change_Password_Confirm_Password_Must_Be_Matched" finished-at="2021-08-06T01:51:16Z" duration-ms="321" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:10,736] OS name = windows 10
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,785] Change_Password_Confirm_Password must be matched - Step 01:  Input to 'New Password' textbox with value: 'anhtran'
 ]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-08-05 22:41:12,267] ---------- QUIT BROWSER SUCCESS ----------
+              <![CDATA[[INFO ] [2021-08-06 08:51:15,905] Change_Password_Confirm_Password must be matched - Step 02:  Input to 'Confirm Password' textbox with value: 'anhtran@456'
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:16,055] Change_Password_Confirm_Password must be matched - Step 03: Verify warning message is displayed with 'Passwords do not Match'
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_06_Change_Password_Confirm_Password_Must_Be_Matched -->
+        <test-method signature="TC_07_Change_Password_With_Matched_Password()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:16Z" name="TC_07_Change_Password_With_Matched_Password" finished-at="2021-08-06T01:51:19Z" duration-ms="3316" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:16,108] Change_Password with matched password - Step 01: Input to 'Old' textbox with valid old password
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:16,211] Change_Password with matched password - Step 02: Input to 'New Password' textbox with valid new password: 'anhtran@123'
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:16,323] Change_Password with matched password - Step 03: Input to 'Confirm Password' textbox with valid new confirm password: 'anhtran@123'
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:16,424] Change_Password with matched password - Step 04: Click to 'Submit' button
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:16,862] Change_Password with matched password - Step 05: Verify alertext 'Password is Changed' is displayed and accept to alert
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:16,875] Change_Password with matched password - Step 06: Enter to 'UserID' textbox
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:18,156] Change_Password with matched password - Step 07: Enter to 'Password' textbox
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:18,275] Change_Password with matched password - Step 08: Click to 'Login' button
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:19,361] Change_Password with matched password - Step 09: Verify login success message is displayed
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_07_Change_Password_With_Matched_Password -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:bankguru.customer.Customer_10_Change_Password@2b329bbd]" started-at="2021-08-06T01:51:19Z" name="afterClass" finished-at="2021-08-06T01:51:20Z" duration-ms="1406" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:19,424] OS name = windows 10
+]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-08-06 08:51:20,696] ---------- QUIT BROWSER SUCCESS ----------
 ]]>
             </line>
           </reporter-output>
